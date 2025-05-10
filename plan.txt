@@ -1,0 +1,1 @@
++ Spent the week going through a somewhat painful update from Unreal 5.4.4 to 5.5.4. My blame on it being Unreal has simmered as I found that I hit more issues that were either already in the build or things I've added in belief that it would fix the issues I was seeing from the upgrade.
