@@ -1,3 +1,4 @@
 + Spent the week going through a somewhat painful update from Unreal 5.4.4 to 5.5.4. My blame on it being Unreal has simmered as I found that I hit more issues that were either already in the build or things I've added in belief that it would fix the issues I was seeing from the upgrade.
 + Found a map change crash when objects are on fire. Traced it back to a build called `new new new fire`, I think the issue might be related to the recent fire update. Just a hunch.
 + Fixed crash. Crash was easy to fix, what wasn't was the new crash that crept in due to the cooker not including a gameplayeffect. 
++ Working on a html export of the .plan system so posts are public.
