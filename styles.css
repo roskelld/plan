@@ -1,0 +1,70 @@
+html {
+  margin-left: 1rem;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 1.5rem;
+  width: 50rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 200;
+  background-color: var(--uchu-blue-1);
+  padding: 0.4rem 0.4rem;   
+  display: none;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  background-color: var(--uchu-yin-1);
+  padding: 0.4rem 0.4rem;   
+  display: none;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: var(--uchu-gray-1);
+  padding: 0.4rem 0.4rem;   
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    width: 95%;
+    margin: 1em;
+  }
+}
+
+details>summary {
+  cursor: pointer;
+}
+
+.entry {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.tags {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--uchu-gray-5);
+}
+
+code {
+  color: var(--uchu-yin-6);
+  background-color: var(--uchu-gray-1);
+  padding: 0.2rem 0.2rem;    
+  border-radius: 0.2rem;
+  white-space: nowrap;
+}
+
+nav {
+  background-color: var(--uchu-gray-1);
+  padding: 0.1rem;
+}
