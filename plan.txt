@@ -3,5 +3,6 @@
 + Fixed crash. Crash was easy to fix, what wasn't was the new crash that crept in due to the cooker not including a gameplayeffect. 
 + Working on a html export of the .plan system so posts are public.
 + Created scripts to generate webpage version of .plan and rss feed.
++ Back on build stability bugs hoping to get 5.5.4 ready to merge with main.
 
 
