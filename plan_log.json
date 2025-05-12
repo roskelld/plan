@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": 1746904151,
+    "commit": "68e7d8b5bb347b6505bb4906d5fd6ba7c4ff907e",
+    "body": "Spent the week going through a somewhat painful update from Unreal 5.4.4 to 5.5.4. My blame on it being Unreal has simmered as I found that I hit more issues that were either already in the build or things I've added in belief that it would fix the issues I was seeing from the upgrade.",
+    "tags": []
+  },
+  {
+    "timestamp": 1746905380,
+    "commit": "7d23a3b30af1461d5072a5b2ff17dbf5e21a7c80",
+    "body": "Found a map change crash when objects are on fire. Traced it back to a build called `new new new fire`, I think the issue might be related to the recent fire update. Just a hunch.",
+    "tags": []
+  },
+  {
+    "timestamp": 1746930915,
+    "commit": "c2ebf183d8f0a470dd5e821ee3b22d9d165e0a08",
+    "body": "Fixed crash. Crash was easy to fix, what wasn't was the new crash that crept in due to the cooker not including a gameplayeffect.",
+    "tags": []
+  },
+  {
+    "timestamp": 1746991426,
+    "commit": "76636d666d90ddf42f9bb540d256ea91e296e9ac",
+    "body": "Working on a html export of the .plan system so posts are public.",
+    "tags": []
+  },
+  {
+    "timestamp": 1747029799,
+    "commit": "3b83bec8d66f8dac450d2a5ba6ff41c21eaf8b7c",
+    "body": "Pushed webpage version of .plan and rss feed.",
+    "tags": []
+  }
+]
