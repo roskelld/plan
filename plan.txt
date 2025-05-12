@@ -2,3 +2,4 @@
 + Found a map change crash when objects are on fire. Traced it back to a build called `new new new fire`, I think the issue might be related to the recent fire update. Just a hunch.
 + Fixed crash. Crash was easy to fix, what wasn't was the new crash that crept in due to the cooker not including a gameplayeffect. 
 + Working on a html export of the .plan system so posts are public.
++ Pushed webpage version of .plan and rss feed.
