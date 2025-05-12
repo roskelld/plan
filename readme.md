@@ -103,4 +103,4 @@ Feel free to file issues or submit PRs for enhancements, such as:
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the [GPL-3.0 license](LICENSE).
