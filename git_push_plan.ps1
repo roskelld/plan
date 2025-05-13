@@ -12,9 +12,10 @@ if ($LASTEXITCODE -ne 0) {
 # Generate JSON and HTML
 python generate_plan_json.py
 python generate_plan_html.py
+python generate_plan_rss.py
 
 # Stage and commit generated files
-git add plan_log.json index.html
+git add plan_log.json index.html feed.xml
 $timestamp2 = Get-Date -Format "yyyy-MM-dd HH:mm"
 git commit -m "Rebuild site $timestamp2"
 
