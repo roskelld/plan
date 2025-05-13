@@ -40,5 +40,11 @@
     "commit": "a3c9b8db7d623d3481b8e9bb8974641dbab62584",
     "body": "Back on build stability bugs hoping to get 5.5.4 ready to merge with main.",
     "tags": []
+  },
+  {
+    "timestamp": 1747157083,
+    "commit": "edab1e1bb7d97c1c08e633013e7398a8bbcd4f86",
+    "body": "Hopefully the last major issue from the 5.5.4 upgrade is fixing the account log on issues.",
+    "tags": []
   }
 ]
