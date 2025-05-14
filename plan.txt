@@ -5,4 +5,4 @@
 + Created scripts to generate webpage version of .plan and rss feed.
 + Back on build stability bugs hoping to get 5.5.4 ready to merge with main.
 + Hopefully the last major issue from the 5.5.4 upgrade is fixing the account log on issues.
-
++ 5.5.4 is now main. Also, added meta tags to the plan so link embeds show the latest post.
