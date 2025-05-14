@@ -7,7 +7,7 @@ from collections import defaultdict
 # Paths
 DATA_FILE = Path("plan_log.json")
 OUT_FILE = Path("index.html")
-
+SITE_URL = "https://roskelld.github.io/plan"
 
 def load_entries():
     return json.loads(DATA_FILE.read_text(encoding="utf-8"))
@@ -32,9 +32,24 @@ def html_escape(text):
 
 
 def generate_html(structure):
+    # Determine latest entry for OG description
+    flat = [e for year in structure.values() for month in year.values() for day in month.values() for e in day]
+    latest_desc = ""
+    if flat:
+        flat.sort(key=lambda e: e["timestamp"], reverse=True)
+        raw = html_escape(flat[0]["body"]).replace("\n", " ")
+        latest_desc = (raw[:200] + '...') if len(raw) > 200 else raw
+        
     html = ["<!DOCTYPE html>", "<html lang='en'>", "<head>",
             "<meta charset='UTF-8'>",
-            "<title>roskelld .plan</title>",
+            f"<title>roskelld .plan</title>",
+            # OpenGraph tags
+            f"<meta property='og:title' content='.plan Archive' />",
+            f"<meta property='og:description' content='{latest_desc}' />",
+            "<meta property='og:type' content='website' />",
+            f"<meta property='og:url' content='{SITE_URL}/' />",
+            # RSS link & CSS
+            f"<link rel='alternate' type='application/rss+xml' href='{SITE_URL}/feed.xml' />",
             "<link rel='stylesheet' type='text/css' href='color_expanded.css'>",
             "<link rel='stylesheet' type='text/css' href='styles.css'>",
             "</head><body>",
@@ -42,7 +57,6 @@ def generate_html(structure):
             # Table of Contents
             "<details>",
             "<summary>Jump to…</summary>",
-            #"<p>",
             "<nav><ul>"]
 
     # TOC: years→months→days
