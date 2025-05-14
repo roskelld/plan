@@ -46,5 +46,11 @@
     "commit": "edab1e1bb7d97c1c08e633013e7398a8bbcd4f86",
     "body": "Hopefully the last major issue from the 5.5.4 upgrade is fixing the account log on issues.",
     "tags": []
+  },
+  {
+    "timestamp": 1747186767,
+    "commit": "429c326b36757fc3cfbf45cb413f3c3fc476064e",
+    "body": "5.5.4 is now main. Also, added meta tags to the plan so link embeds show the latest post.",
+    "tags": []
   }
 ]
