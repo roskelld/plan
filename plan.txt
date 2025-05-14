@@ -7,3 +7,4 @@
 + Hopefully the last major issue from the 5.5.4 upgrade is fixing the account log on issues.
 + 5.5.4 is now main. Also, added meta tags to the plan so link embeds show the latest post.
 + Cleaned up console warning messages. Feels good. 
++ Working on updating the skelve generation system so layouts have more governance over what is spawned.
