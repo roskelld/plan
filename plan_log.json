@@ -52,5 +52,11 @@
     "commit": "429c326b36757fc3cfbf45cb413f3c3fc476064e",
     "body": "5.5.4 is now main. Also, added meta tags to the plan so link embeds show the latest post.",
     "tags": []
+  },
+  {
+    "timestamp": 1747252158,
+    "commit": "fea7a6b967438e25defd50ecfafa6077fd48937b",
+    "body": "Cleaned up console warning messages. Feels good.",
+    "tags": []
   }
 ]
