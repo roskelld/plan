@@ -8,3 +8,7 @@
 + 5.5.4 is now main. Also, added meta tags to the plan so link embeds show the latest post.
 + Cleaned up console warning messages. Feels good. 
 + Working on updating the skelve generation system so layouts have more governance over what is spawned.
++ First public playtest of 5.5.4 build and it went much smoother than last week. One crash relating to saving actors on map change related to missing attribute data. Success overall.
+
+
+ 
