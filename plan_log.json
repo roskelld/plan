@@ -64,5 +64,11 @@
     "commit": "6f6633e2a9237656e1ee6d35e8d7468fbcac1eb1",
     "body": "Working on updating the skelve generation system so layouts have more governance over what is spawned.",
     "tags": []
+  },
+  {
+    "timestamp": 1747421411,
+    "commit": "71960134f3393434e4156608c76cde7b827fd757",
+    "body": "First public playtest of 5.5.4 build and it went much smoother than last week. One crash relating to saving actors on map change related to missing attribute data. Success overall.",
+    "tags": []
   }
 ]
