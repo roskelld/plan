@@ -54,6 +54,7 @@ def generate_html(structure):
             "<link rel='stylesheet' type='text/css' href='styles.css'>",
             "</head><body>",
             "<h1>roskelld .plan</h1>",
+            "<a href='https://roskelld.github.io/plan/feed.xml'><img src='images/pic_rss.gif' alt='RSS'></a>",
             # Table of Contents
             "<details>",
             "<summary>Jump to…</summary>",

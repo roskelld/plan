@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'dejavu_sans_monobold';
-  src: url('fonts/DejaVuSansMonoBold-webfont.woff') format('woff');
+  src: url('fonts/DejaVuSansMono-Bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 	font-display: block;
@@ -74,10 +74,11 @@ details>summary {
 }
 
 code {
-  color: var(--uchu-yin-6);
-  background-color: var(--uchu-gray-1);
+	font-family: dejavu_sans_monobold;
+  color: var(--uchu-yin-9);
+  background-color: var(--uchu-gray-2);
   padding: 0.2rem 0.2rem;    
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
   white-space: nowrap;
 }
 
