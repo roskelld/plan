@@ -70,5 +70,11 @@
     "commit": "71960134f3393434e4156608c76cde7b827fd757",
     "body": "First public playtest of 5.5.4 build and it went much smoother than last week. One crash relating to saving actors on map change related to missing attribute data. Success overall.",
     "tags": []
+  },
+  {
+    "timestamp": 1747588061,
+    "commit": "f0de2ca27801389c9533b3cf0c7e2b67769dc83a",
+    "body": "Been back on the skelve generation system. Now uses a multipass format: Layout->Content->Block unused entrances. Allows for more passes to be added in future.",
+    "tags": []
   }
 ]
