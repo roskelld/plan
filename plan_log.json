@@ -76,5 +76,11 @@
     "commit": "f0de2ca27801389c9533b3cf0c7e2b67769dc83a",
     "body": "Been back on the skelve generation system. Now uses a multipass format: Layout->Content->Block unused entrances. Allows for more passes to be added in future.",
     "tags": []
+  },
+  {
+    "timestamp": 1747588387,
+    "commit": "65446bb346687e448182b6d857ed3a610a08b8a3",
+    "body": "One big change to the updated skelve generator is layout validity. When attempting to generate a new chamber (level chunk) it tests the space using a box overlap to see if it will fit or reject.",
+    "tags": []
   }
 ]
