@@ -9,6 +9,6 @@
 + Cleaned up console warning messages. Feels good. 
 + Working on updating the skelve generation system so layouts have more governance over what is spawned.
 + First public playtest of 5.5.4 build and it went much smoother than last week. One crash relating to saving actors on map change related to missing attribute data. Success overall.
-
++ Been back on the skelve generation system. Now uses a multipass format: Layout->Content->Block unused entrances. Allows for more passes to be added in future.
 
  
