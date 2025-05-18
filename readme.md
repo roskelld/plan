@@ -43,8 +43,8 @@ plan/
 1. **Clone the repository**:
 
    ```powershell
-   git clone https://github.com/yourname/plan.git
-   cd planlog
+   git clone https://github.com/roskell/plan.git
+   cd plan
    ```
 
 2. **Install Watchman** and ensure `watchman.exe` is in your PATH.
