@@ -1,7 +1,23 @@
+@font-face {
+  font-family: 'dejavu_sans_monobook';
+  src: url('fonts/DejaVuSansMono-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+  font-family: 'dejavu_sans_monobold';
+  src: url('fonts/DejaVuSansMonoBold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+	font-display: block;
+}
+
+
 html {
   margin-left: 1rem;
-  font-family: monospace;
-  font-weight: 100;
+  font-family: dejavu_sans_monobook, monospace;
   line-height: 1.5rem;
   width: 50rem;
 }
@@ -16,7 +32,6 @@ h2 {
   font-weight: 200;
   background-color: var(--uchu-blue-1);
   padding: 0.4rem 0.4rem;   
-  display: none;
 }
 
 h3 {
@@ -24,7 +39,6 @@ h3 {
   font-weight: 100;
   background-color: var(--uchu-yin-1);
   padding: 0.4rem 0.4rem;   
-  display: none;
 }
 
 h4 {
@@ -48,6 +62,9 @@ details>summary {
 .entry {
   margin-bottom: 1rem;
   margin-left: 1rem;
+  border-left: 4px solid var(--uchu-blue-2);
+  border-radius: 0.3rem;
+  padding-left: 1rem;
 }
 
 .tags {

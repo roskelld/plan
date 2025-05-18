@@ -100,6 +100,7 @@ Feel free to file issues or submit PRs for enhancements, such as:
 ## Thanks
 
 * NeverCease for [uchu](https://github.com/NeverCease/uchu) color palette css 
+* [DEJAVU SANS MONO FONT](https://www.fontsquirrel.com/license/dejavu-sans-mono)
 
 ## License
 
