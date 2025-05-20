@@ -82,5 +82,11 @@
     "commit": "65446bb346687e448182b6d857ed3a610a08b8a3",
     "body": "One big change to the updated skelve generator is layout validity. When attempting to generate a new chamber (level chunk) it tests the space using a box overlap to see if it will fit or reject.",
     "tags": []
+  },
+  {
+    "timestamp": 1747770987,
+    "commit": "d4bab45ed3d6256d1a9f2bfaf842def8b55a7e9d",
+    "body": "Wrote a SnapToCeiling command for UnrealEd. Why spend a few minutes moving actors, when you can spent a few hours writing and debugging a command. I can see it paying off in the future.",
+    "tags": []
   }
 ]
