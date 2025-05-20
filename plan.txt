@@ -12,5 +12,3 @@
 + Been back on the skelve generation system. Now uses a multipass format: Layout->Content->Block unused entrances. Allows for more passes to be added in future.
 + One big change to the updated skelve generator is layout validity. When attempting to generate a new chamber (level chunk) it tests the space using a box overlap to see if it will fit or reject. 
 + Wrote a SnapToCeiling command for UnrealEd. Why spend a few minutes moving actors, when you can spent a few hours writing and debugging a command. I can see it paying off in the future. 
-
- 
