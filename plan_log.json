@@ -88,5 +88,11 @@
     "commit": "d4bab45ed3d6256d1a9f2bfaf842def8b55a7e9d",
     "body": "Wrote a SnapToCeiling command for UnrealEd. Why spend a few minutes moving actors, when you can spent a few hours writing and debugging a command. I can see it paying off in the future.",
     "tags": []
+  },
+  {
+    "timestamp": 1747964947,
+    "commit": "0c534924d0992d9c1632bfc831cfd544ab739d5a",
+    "body": "Testing an early version of the new Skelve generator. The phase based generation is in now: Layout, content, exit capping. I see some refactoring already that will help give more data that's needed. Next phase is tackling the biome shifting using height as a driver.",
+    "tags": []
   }
 ]
