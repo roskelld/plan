@@ -11,4 +11,5 @@
 + First public playtest of 5.5.4 build and it went much smoother than last week. One crash relating to saving actors on map change related to missing attribute data. Success overall.
 + Been back on the skelve generation system. Now uses a multipass format: Layout->Content->Block unused entrances. Allows for more passes to be added in future.
 + One big change to the updated skelve generator is layout validity. When attempting to generate a new chamber (level chunk) it tests the space using a box overlap to see if it will fit or reject. 
-+ Wrote a SnapToCeiling command for UnrealEd. Why spend a few minutes moving actors, when you can spent a few hours writing and debugging a command. I can see it paying off in the future. 
++ Wrote a SnapToCeiling command for UnrealEd. Why spend a few minutes moving actors, when you can spent a few hours writing and debugging a command. I can see it paying off in the future.
++ Testing an early version of the new Skelve generator. The phase based generation is in now: Layout, content, exit capping. I see some refactoring already that will help give more data that's needed. Next phase is tackling the biome shifting using height as a driver. 
