@@ -94,5 +94,11 @@
     "commit": "0c534924d0992d9c1632bfc831cfd544ab739d5a",
     "body": "Testing an early version of the new Skelve generator. The phase based generation is in now: Layout, content, exit capping. I see some refactoring already that will help give more data that's needed. Next phase is tackling the biome shifting using height as a driver.",
     "tags": []
+  },
+  {
+    "timestamp": 1748049661,
+    "commit": "9bdb857aebe439f76c72b9b7c98de2e107254a34",
+    "body": "Test failed successfully. Levels failed to load on clients, I believe due to me using FlushLevelStreaming which stopped code from running until the level load was complete, but this pause caused client sync issues. The test gave us enough to think over things and present a new solution using OnLevelShown delegates to handle future updates, no need to pause code.",
+    "tags": []
   }
 ]
