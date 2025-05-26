@@ -100,5 +100,11 @@
     "commit": "9bdb857aebe439f76c72b9b7c98de2e107254a34",
     "body": "Test failed successfully. Levels failed to load on clients, I believe due to me using FlushLevelStreaming which stopped code from running until the level load was complete, but this pause caused client sync issues. The test gave us enough to think over things and present a new solution using OnLevelShown delegates to handle future updates, no need to pause code.",
     "tags": []
+  },
+  {
+    "timestamp": 1748237479,
+    "commit": "91d05ca40bb9a82afce78009d6778530b98d8c8d",
+    "body": "Added a chamber graph so we eventually spawn chambers with an understanding of their surroundings, helping build out logical spaces using rules instead of generating skelves using pure random items from a lightly filtered list.",
+    "tags": []
   }
 ]
