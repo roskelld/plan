@@ -106,5 +106,11 @@
     "commit": "91d05ca40bb9a82afce78009d6778530b98d8c8d",
     "body": "Added a chamber graph so we eventually spawn chambers with an understanding of their surroundings, helping build out logical spaces using rules instead of generating skelves using pure random items from a lightly filtered list.",
     "tags": []
+  },
+  {
+    "timestamp": 1748380083,
+    "commit": "9fbc00a4f0a42ff5d7c19ccef744fef5499d71d5",
+    "body": "Rewriting what was the POI spawning system, which I'm now calling the Chamber Props system. It spawns crafted scenes of actors at predefined locations in a skelve with the intention of looking appropriate to the surroundings. The goal is to craft a language using gameplaytags where these can be built independent of location and picked to spawn based on the applied tags.",
+    "tags": []
   }
 ]
