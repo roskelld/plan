@@ -112,5 +112,11 @@
     "commit": "9fbc00a4f0a42ff5d7c19ccef744fef5499d71d5",
     "body": "Rewriting what was the POI spawning system, which I'm now calling the Chamber Props system. It spawns crafted scenes of actors at predefined locations in a skelve with the intention of looking appropriate to the surroundings. The goal is to craft a language using gameplaytags where these can be built independent of location and picked to spawn based on the applied tags.",
     "tags": []
+  },
+  {
+    "timestamp": 1748891497,
+    "commit": "2dfb7710157c6af0c53487587e9310948d7e331d",
+    "body": "After a long wait, it's finally time to start working on a v1 rope system. v1 is how we describe the most minimal implementation of an idea to get something tested quick and early. This version of rope will allow players to deploy it down vertical drops where it will then mimic the behaviour of a ladder for others to climb. It will also support collecting to deploy elsewhere.",
+    "tags": []
   }
 ]
