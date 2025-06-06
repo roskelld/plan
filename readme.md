@@ -101,6 +101,7 @@ Feel free to file issues or submit PRs for enhancements, such as:
 
 * NeverCease for [uchu](https://github.com/NeverCease/uchu) color palette css 
 * [DEJAVU SANS MONO FONT](https://www.fontsquirrel.com/license/dejavu-sans-mono)
+* [BurntToast](https://github.com/Windos/BurntToast) for the notification module.
 
 ## License
 

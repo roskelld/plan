@@ -37,7 +37,7 @@ if ($pushExit -eq 0) {
     # → SUCCESS
     if (Get-Module -ListAvailable -Name BurntToast) {
         New-BurntToastNotification `
-            -Text ".Plan → Git push succeeded", "Update now live!" `
+            -Text ".Plan -> Git push succeeded", "Update now live!" `
             -Sound Default
     }
 	else
@@ -50,7 +50,7 @@ if ($pushExit -eq 0) {
     # → FAILURE
     if (Get-Module -ListAvailable -Name BurntToast) {
         New-BurntToastNotification `
-            -Text ".Plan → Git push failed", "Check git output for errors." `
+            -Text ".Plan -> Git push failed", "Check git output for errors." `
             -Sound Alarm
     }
 	else 
