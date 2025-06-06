@@ -118,5 +118,11 @@
     "commit": "2dfb7710157c6af0c53487587e9310948d7e331d",
     "body": "After a long wait, it's finally time to start working on a v1 rope system. v1 is how we describe the most minimal implementation of an idea to get something tested quick and early. This version of rope will allow players to deploy it down vertical drops where it will then mimic the behaviour of a ladder for others to climb. It will also support collecting to deploy elsewhere.",
     "tags": []
+  },
+  {
+    "timestamp": 1749246969,
+    "commit": "207dc15d4b5fc450f00cb63eeeafee26d686a121",
+    "body": "Tested a very early version of the rope, barely a v1, but it worked as far as showing off the potential of what it's like to explore underground caverns where you can dangle a rope off deep ledges and rappel down into the dark below. Work now continues to polish up the gameplay for that actual v1.",
+    "tags": []
   }
 ]
