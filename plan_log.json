@@ -124,5 +124,11 @@
     "commit": "207dc15d4b5fc450f00cb63eeeafee26d686a121",
     "body": "Tested a very early version of the rope, barely a v1, but it worked as far as showing off the potential of what it's like to explore underground caverns where you can dangle a rope off deep ledges and rappel down into the dark below. Work now continues to polish up the gameplay for that actual v1.",
     "tags": []
+  },
+  {
+    "timestamp": 1749248691,
+    "commit": "f99995d2f2d3d5ee246b5088ade4121956d05686",
+    "body": "Got a bunch of rope fixes done to get characters attached to the rope and facing the right direction. Just setting the actor position/rotation for now and later we can figure out animating them. Next big task is allowing characters to rotate around the rope.",
+    "tags": []
   }
 ]
