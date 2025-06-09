@@ -130,5 +130,11 @@
     "commit": "f99995d2f2d3d5ee246b5088ade4121956d05686",
     "body": "Got a bunch of rope fixes done to get characters attached to the rope and facing the right direction. Just setting the actor position/rotation for now and later we can figure out animating them. Next big task is allowing characters to rotate around the rope.",
     "tags": []
+  },
+  {
+    "timestamp": 1749485501,
+    "commit": "481c4e85547f1e45b0d874b1b4936e022086c48d",
+    "body": "Getting into the deep stuff now. Basic setup for rope locomotion is there, but the networking side is weak with client desync issues occurring during collision events. Time to do a deep dive into the Unreal Character Movement Component and the networking code.",
+    "tags": []
   }
 ]
