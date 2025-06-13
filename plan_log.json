@@ -136,5 +136,11 @@
     "commit": "481c4e85547f1e45b0d874b1b4936e022086c48d",
     "body": "Getting into the deep stuff now. Basic setup for rope locomotion is there, but the networking side is weak with client desync issues occurring during collision events. Time to do a deep dive into the Unreal Character Movement Component and the networking code.",
     "tags": []
+  },
+  {
+    "timestamp": 1749833974,
+    "commit": "e74b94326f4f91da4f6f7d2d6eafb48abd2d3aaf",
+    "body": "After a long deep dive into the workings of the CMC we now have a rope climbing movement mode as well as a simple mantle off step. Lots to polish up, but the playtest went well with proving the networking portion stays in sync.",
+    "tags": []
   }
 ]
