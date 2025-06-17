@@ -142,5 +142,11 @@
     "commit": "e74b94326f4f91da4f6f7d2d6eafb48abd2d3aaf",
     "body": "After a long deep dive into the workings of the CMC we now have a rope climbing movement mode as well as a simple mantle off step. Lots to polish up, but the playtest went well with proving the networking portion stays in sync.",
     "tags": []
+  },
+  {
+    "timestamp": 1750178653,
+    "commit": "c601f824bef160aa3eee8b8e5f55437f17b7aadd",
+    "body": "Spent a day trying to debug an issue with a root motion animation not negating the animation offset. This took me on a journey of recreating the skeleton, rigging, skinning and fixing animations only to find that it was just an editor visualization setting and the animation was fine all along. Reverted a bunch of work, but gained new knowledge.",
+    "tags": []
   }
 ]
