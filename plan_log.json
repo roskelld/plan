@@ -160,5 +160,11 @@
     "commit": "88bd8e99e7a7f3274382b7239ec1fe275b2399a2",
     "body": "Currently working on getting the camera to follow certain root motion animations when it makes sense. Working example is climbing on to rope from above, which requires the character to perform a 180 rotation onto the rope.",
     "tags": []
+  },
+  {
+    "timestamp": 1750448226,
+    "commit": "e838f50a4182958ee04c9c8bfc3e7845139b53dc",
+    "body": "Playtest for mantle and rope climb went well for a first pass. Focus can now be put onto bug fixing and improvements to the ux. Players feels more dynamic now they can climb ledges, this might require more adjustments to the environment to ensure we don't start to see too much independence again and lose the group support dynamic.",
+    "tags": []
   }
 ]
