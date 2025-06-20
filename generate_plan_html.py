@@ -73,7 +73,9 @@ def generate_html(structure):
 
     # Entries
     for year in sorted(structure.keys(), reverse=True):
+        html.append(f"<label id='{year}'></label>")
         for month in sorted(structure[year].keys(), reverse=True):
+            html.append(f"<label id='{month}'></label>")
             for day in sorted(structure[year][month].keys(), reverse=True):
                 full_label = datetime.strptime(day, "%Y-%m-%d").strftime("%B %d, %Y")
                 html.append(f"<h4 id='{day}'>{full_label}</h4>")
