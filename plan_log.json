@@ -172,5 +172,11 @@
     "commit": "15e9a822749a0f933c56dbf4fca3c4d1d68f6267",
     "body": "Though the rope climbing worked, when improving the climb onto rope root motion animation I found I had to do a good amount of rework to improve synchronization. Not perfect, but better now.",
     "tags": []
+  },
+  {
+    "timestamp": 1750975750,
+    "commit": "4bf695b83b30d9888a8bf8a8ea1c90aedb2eb7b0",
+    "body": "Spent more time on rope UX. The rope object can now be picked up, deployed and picked up again. Sorry to anyone currently hanging on for dear life, for now you fall.",
+    "tags": []
   }
 ]
