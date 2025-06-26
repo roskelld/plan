@@ -166,5 +166,11 @@
     "commit": "e838f50a4182958ee04c9c8bfc3e7845139b53dc",
     "body": "Playtest for mantle and rope climb went well for a first pass. Focus can now be put onto bug fixing and improvements to the ux. Players feels more dynamic now they can climb ledges, this might require more adjustments to the environment to ensure we don't start to see too much independence again and lose the group support dynamic.",
     "tags": []
+  },
+  {
+    "timestamp": 1750975663,
+    "commit": "15e9a822749a0f933c56dbf4fca3c4d1d68f6267",
+    "body": "Though the rope climbing worked, when improving the climb onto rope root motion animation I found I had to do a good amount of rework to improve synchronization. Not perfect, but better now.",
+    "tags": []
   }
 ]
