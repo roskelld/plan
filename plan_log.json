@@ -184,5 +184,11 @@
     "commit": "7063bbcc698fd8146460d12f0fb21f86fdb2c1ab",
     "body": "Updated the chamber generation system to use Unreal's fast tarray serializer to reduce replication overhead by sending delta updates.",
     "tags": []
+  },
+  {
+    "timestamp": 1751486680,
+    "commit": "185c31bc0e9cc19050be52402e33d8c89d830561",
+    "body": "Working on player inventory interface to improve ux for held, shouldered and attached items.",
+    "tags": []
   }
 ]
