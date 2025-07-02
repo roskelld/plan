@@ -28,3 +28,4 @@
 + Though the rope climbing worked, when improving the climb onto rope root motion animation I found I had to do a good amount of rework to improve synchronization. Not perfect, but better now.
 + Spent more time on rope UX. The rope object can now be picked up, deployed and picked up again. Sorry to anyone currently hanging on for dear life, for now you fall.  
 + Updated the chamber generation system to use Unreal's fast tarray serializer to reduce replication overhead by sending delta updates.
++ Working on player inventory interface to improve ux for held, shouldered and attached items.
