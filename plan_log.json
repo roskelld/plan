@@ -190,5 +190,11 @@
     "commit": "185c31bc0e9cc19050be52402e33d8c89d830561",
     "body": "Working on player inventory interface to improve ux for held, shouldered and attached items.",
     "tags": []
+  },
+  {
+    "timestamp": 1752260498,
+    "commit": "845313d710bcd0384283c60ed74b1f4252dc9f1d",
+    "body": "Started a push on updating existing systems to improve interactivity with other systems. First up is door/barriers. Rebuilding class in C++ and adding ability to be blocked by other objects or to deal crushing damage.",
+    "tags": []
   }
 ]
