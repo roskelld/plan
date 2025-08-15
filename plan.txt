@@ -32,3 +32,4 @@
 + Started a push on updating existing systems to improve interactivity with other systems. First up is door/barriers. Rebuilding class in C++ and adding ability to be blocked by other objects or to deal crushing damage. 
 + Continuing with the barrier update. Most object interaction is handled now, barrier gets blocked by valid actor(s) in its path based on competing sturdiness values or actors get crushed. Next up is to do a host of character/barrier interactions.
 + Working on polishing up character's bracing barrier's open and handling all edge cases and resolve paths (Stopping brace action, stepping away from barrier, etc...)
++ Back from holiday. Spending the day playing and collating bugs as I get my head back into work mode. 
