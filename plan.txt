@@ -35,3 +35,4 @@
 + Back from holiday. Spending the day playing and collating bugs as I get my head back into work mode. 
 + Created a trello bug board. Seems that we're at the point now where my manual bug lists are getting too long to keep track of so a more formal set up would help.
 + Wrote a trade economy design spec to act as part of the current progression gameplay experience goal. Incorporates a range of existing game elements such as item damage, rarity, such that it should help elevate their importance during play.
++ Commenced work on developing an economy subsystem class to handle trade systems. Updated the game item meta datatable to start to incorporate base economic data.
