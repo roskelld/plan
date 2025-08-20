@@ -220,5 +220,11 @@
     "commit": "7d100f413076c7934ad376a5dc75558695bffaa1",
     "body": "Created a trello bug board. Seems that we're at the point now where my manual bug lists are getting too long to keep track of so a more formal set up would help.",
     "tags": []
+  },
+  {
+    "timestamp": 1755655428,
+    "commit": "024835719aba4530500b9f4d74ca31d319760c9d",
+    "body": "Wrote a trade economy design spec to act as part of the current progression gameplay experience goal. Incorporates a range of existing game elements such as item damage, rarity, such that it should help elevate their importance during play.",
+    "tags": []
   }
 ]
