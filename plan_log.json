@@ -232,5 +232,11 @@
     "commit": "3174c42a2b97b89cd8a3bd3ae72a2c0540fd2aff",
     "body": "Commenced work on developing an economy subsystem class to handle trade systems. Updated the game item meta datatable to start to incorporate base economic data.",
     "tags": []
+  },
+  {
+    "timestamp": 1756328813,
+    "commit": "15657979f1c0723261ace1760f0b176e14e7f044",
+    "body": "After last week's playtest we saw that object physics suffered a fair amount of desync, with a large delay when waiting for net correction. I spent the weekend (and today) rewriting a lot of the code to use  Network Physics with resim, so corrections can come in during a sim. Also rewrote how objects handle having their physics enabled and disabled during play.",
+    "tags": []
   }
 ]
