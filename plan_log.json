@@ -238,5 +238,11 @@
     "commit": "15657979f1c0723261ace1760f0b176e14e7f044",
     "body": "After last week's playtest we saw that object physics suffered a fair amount of desync, with a large delay when waiting for net correction. I spent the weekend (and today) rewriting a lot of the code to use  Network Physics with resim, so corrections can come in during a sim. Also rewrote how objects handle having their physics enabled and disabled during play.",
     "tags": []
+  },
+  {
+    "timestamp": 1756429500,
+    "commit": "e6734307213264f12406383396e724485cf38007",
+    "body": "Added further fixes and improvements to physics network sync and client prediction. Drop and Throw now multicast with replication data payload so clients can initiate their version of the state.",
+    "tags": []
   }
 ]
