@@ -244,5 +244,11 @@
     "commit": "e6734307213264f12406383396e724485cf38007",
     "body": "Added further fixes and improvements to physics network sync and client prediction. Drop and Throw now multicast with replication data payload so clients can initiate their version of the state.",
     "tags": []
+  },
+  {
+    "timestamp": 1756949054,
+    "commit": "a0a400712a1f22648070dd4edb780c322ba30816",
+    "body": "Getting a lot of crashes related to cleaning up physics objects on the client. Fighting Unreal to hunt out all the possible paths that can hit an object around level clean up.",
+    "tags": []
   }
 ]
