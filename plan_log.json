@@ -256,5 +256,11 @@
     "commit": "28b9ba1c7078b4e03c8897a2f660f68d1349a794",
     "body": "Traced on crash that looks like it's coming from the engine and checking the source for 5.6 there's been updates to the area of the crash. Currently upgrading to 5.6.1",
     "tags": []
+  },
+  {
+    "timestamp": 1757352179,
+    "commit": "30fb522fde11375dcc7c7b9e704af85bda10d598",
+    "body": "Upgrade to 5.6 did not resolve phys crash error. Implemented a different solution to cleanse all objects before triggering a map change to resolve the issue.",
+    "tags": []
   }
 ]
