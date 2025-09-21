@@ -42,3 +42,5 @@
 + Traced on crash that looks like it's coming from the engine and checking the source for 5.6 there's been updates to the area of the crash. Currently upgrading to 5.6.1
 + Upgrade to 5.6 did not resolve phys crash error. Implemented a different solution to cleanse all objects before triggering a map change to resolve the issue.
 + Spending the week doing bug fixing and polish. The backlog has built up and 5.6 added some new issues. Working my way up the trello board. 
++ Added a general fix player state solution that we can use to work around bugs to revert the player into a default state. We had many issues where players would get objects stuck in their hands or the UI stuck leaving them unable to play. The state fix works around this until we fix the bugs.
++ Reworked player sprint collision. Handles environment collisions that can redirect players, up to knocking them back for hard impacts. Collisions against objects and players pushes them based on their mass and the sprinting player speed & mass. The net result is Gnomes can be yeeted into the air by Giantkins. 
