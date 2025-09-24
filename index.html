@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Added a general fix player state solution that we can use to work around bugs to revert the player into a default state. We had many issues where players would get objects stuck in their hands or the ...' />
+<meta property='og:description' content='Added more player based collision events setup, including knock back from thrown objects.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -32,6 +32,9 @@
 </details>
 <label id='2025'></label>
 <label id='2025-09'></label>
+<h4 id='2025-09-24'>September 24, 2025</h4>
+<div id='entry-8cbc214' class='entry'>Updated player damage to incorporate resistances. Right now most damage is physical based. This opens up the door for using wearable items to increase resistances for better protection. Knock back events also take into consideration the physical resistance stat.<div class='tags'>Commit 8cbc214</div></div>
+<div id='entry-8cbc214' class='entry'>Added more player based collision events setup, including knock back from thrown objects.<div class='tags'>Commit 8cbc214</div></div>
 <h4 id='2025-09-21'>September 21, 2025</h4>
 <div id='entry-b77d647' class='entry'>Reworked player sprint collision. Handles environment collisions that can redirect players, up to knocking them back for hard impacts. Collisions against objects and players pushes them based on their mass and the sprinting player speed &amp; mass. The net result is Gnomes can be yeeted into the air by Giantkins.<div class='tags'>Commit b77d647</div></div>
 <div id='entry-b77d647' class='entry'>Added a general fix player state solution that we can use to work around bugs to revert the player into a default state. We had many issues where players would get objects stuck in their hands or the UI stuck leaving them unable to play. The state fix works around this until we fix the bugs.<div class='tags'>Commit b77d647</div></div>

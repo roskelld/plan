@@ -280,5 +280,17 @@
     "commit": "b77d6476e2ff0ace511c7aedaf2acf8bcc81643c",
     "body": "Reworked player sprint collision. Handles environment collisions that can redirect players, up to knocking them back for hard impacts. Collisions against objects and players pushes them based on their mass and the sprinting player speed & mass. The net result is Gnomes can be yeeted into the air by Giantkins.",
     "tags": []
+  },
+  {
+    "timestamp": 1758750523,
+    "commit": "8cbc2146c4fedaf3a6fd5af0c7c77611ca0cf73c",
+    "body": "Added more player based collision events setup, including knock back from thrown objects.",
+    "tags": []
+  },
+  {
+    "timestamp": 1758750523,
+    "commit": "8cbc2146c4fedaf3a6fd5af0c7c77611ca0cf73c",
+    "body": "Updated player damage to incorporate resistances. Right now most damage is physical based. This opens up the door for using wearable items to increase resistances for better protection. Knock back events also take into consideration the physical resistance stat.",
+    "tags": []
   }
 ]
