@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Added more player based collision events setup, including knock back from thrown objects.' />
+<meta property='og:description' content='Hit an issue handling downed players where they continue to move after being downed (such as falling to the ground) which comes after their movement system has been disabled (no player inputs). This m...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -32,6 +32,8 @@
 </details>
 <label id='2025'></label>
 <label id='2025-09'></label>
+<h4 id='2025-09-26'>September 26, 2025</h4>
+<div id='entry-0d455b4' class='entry'>Hit an issue handling downed players where they continue to move after being downed (such as falling to the ground) which comes after their movement system has been disabled (no player inputs). This means that they get teleported back to the point where they initiated being downed instead of where they landed. Teleporting them to their final location has introduced a rotation deync issue that has proven a pain to resolve. I'm looking at alternate solutions in an attempt to stop fighting this one.<div class='tags'>Commit 0d455b4</div></div>
 <h4 id='2025-09-24'>September 24, 2025</h4>
 <div id='entry-8cbc214' class='entry'>Updated player damage to incorporate resistances. Right now most damage is physical based. This opens up the door for using wearable items to increase resistances for better protection. Knock back events also take into consideration the physical resistance stat.<div class='tags'>Commit 8cbc214</div></div>
 <div id='entry-8cbc214' class='entry'>Added more player based collision events setup, including knock back from thrown objects.<div class='tags'>Commit 8cbc214</div></div>
