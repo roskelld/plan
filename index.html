@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Hit an issue handling downed players where they continue to move after being downed (such as falling to the ground) which comes after their movement system has been disabled (no player inputs). This m...' />
+<meta property='og:description' content='Resolved players teleporting after being revived. My first attempt at an overly complicated solution failed, thankfully, which led me to a simple solution. Mesh clipping with walls is still an issue.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -17,6 +17,8 @@
 <summary>Jump to…</summary>
 <nav><ul>
 <li><a href='#2025'>2025</a><ul>
+<li><a href='#2025-10'>October</a>
+</li>
 <li><a href='#2025-09'>September</a>
 </li>
 <li><a href='#2025-08'>August</a>
@@ -31,6 +33,9 @@
 </ul></nav>
 </details>
 <label id='2025'></label>
+<label id='2025-10'></label>
+<h4 id='2025-10-02'>October 02, 2025</h4>
+<div id='entry-31641a5' class='entry'>Resolved players teleporting after being revived. My first attempt at an overly complicated solution failed, thankfully, which led me to a simple solution. Mesh clipping with walls is still an issue.<div class='tags'>Commit 31641a5</div></div>
 <label id='2025-09'></label>
 <h4 id='2025-09-26'>September 26, 2025</h4>
 <div id='entry-0d455b4' class='entry'>Hit an issue handling downed players where they continue to move after being downed (such as falling to the ground) which comes after their movement system has been disabled (no player inputs). This means that they get teleported back to the point where they initiated being downed instead of where they landed. Teleporting them to their final location has introduced a rotation deync issue that has proven a pain to resolve. I'm looking at alternate solutions in an attempt to stop fighting this one.<div class='tags'>Commit 0d455b4</div></div>
