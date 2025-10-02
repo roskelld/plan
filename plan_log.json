@@ -304,5 +304,11 @@
     "commit": "31641a507ce2f810dd30b8905743ad85156e2572",
     "body": "Resolved players teleporting after being revived. My first attempt at an overly complicated solution failed, thankfully, which led me to a simple solution. Mesh clipping with walls is still an issue.",
     "tags": []
+  },
+  {
+    "timestamp": 1759423926,
+    "commit": "995cf42d9ea1fde845b059461b28883019412568",
+    "body": "VOIP has broken since upgrading to 5.6. Not clear why but there was a bunch of engine updates in that area. Investigating.",
+    "tags": []
   }
 ]
