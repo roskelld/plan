@@ -310,5 +310,11 @@
     "commit": "995cf42d9ea1fde845b059461b28883019412568",
     "body": "VOIP has broken since upgrading to 5.6. Not clear why but there was a bunch of engine updates in that area. Investigating.",
     "tags": []
+  },
+  {
+    "timestamp": 1759525617,
+    "commit": "4925bac0d2124894c18145634a14c61697f7501a",
+    "body": "Fixed DiscordSDK issue that could fail to init on start and would never retry, effectively locking the game.",
+    "tags": []
   }
 ]
