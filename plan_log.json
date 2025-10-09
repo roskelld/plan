@@ -328,5 +328,11 @@
     "commit": "c4ed2c44ed2a656d922b858a6add659718f20833",
     "body": "Fixed issue where players could get stuck in rope climb movement mode but have their ability removed.",
     "tags": []
+  },
+  {
+    "timestamp": 1760045941,
+    "commit": "9e812c83d5c5b2020f55a81771331240712631f3",
+    "body": "VOIP issue is fixed. Required rolling back to an old version of the EOS SDK. Still not clear on the cause, but I've wasted enough time on it that I need to move on.",
+    "tags": []
   }
 ]
