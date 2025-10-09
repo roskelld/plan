@@ -316,5 +316,17 @@
     "commit": "4925bac0d2124894c18145634a14c61697f7501a",
     "body": "Fixed DiscordSDK issue that could fail to init on start and would never retry, effectively locking the game.",
     "tags": []
+  },
+  {
+    "timestamp": 1759989361,
+    "commit": "c4ed2c44ed2a656d922b858a6add659718f20833",
+    "body": "VOIP issue persists, possibly related to player block lists preventing comms within EOS.",
+    "tags": []
+  },
+  {
+    "timestamp": 1759989361,
+    "commit": "c4ed2c44ed2a656d922b858a6add659718f20833",
+    "body": "Fixed issue where players could get stuck in rope climb movement mode but have their ability removed.",
+    "tags": []
   }
 ]
