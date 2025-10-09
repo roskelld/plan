@@ -50,4 +50,5 @@
 + Resolved players teleporting after being revived. My first attempt at an overly complicated solution failed, thankfully, which led me to a simple solution. Mesh clipping with walls is still an issue.
 + VOIP has broken since upgrading to 5.6. Not clear why but there was a bunch of engine updates in that area. Investigating.
 + Fixed DiscordSDK issue that could fail to init on start and would never retry, effectively locking the game.
- 
++ VOIP issue persists, possibly related to player block lists preventing comms within EOS.
++ Fixed issue where players could get stuck in rope climb movement mode but have their ability removed.
