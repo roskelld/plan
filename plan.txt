@@ -53,3 +53,4 @@
 + VOIP issue persists, possibly related to player block lists preventing comms within EOS.
 + Fixed issue where players could get stuck in rope climb movement mode but have their ability removed.
 + VOIP issue is fixed. Required rolling back to an old version of the EOS SDK. Still not clear on the cause, but I've wasted enough time on it that I need to move on.
++ Added a mouth component to player character's that animates based on voice input.
