@@ -340,5 +340,11 @@
     "commit": "4b80620d8ae319dd2df5b0d51b133c57674c3fc8",
     "body": "Added a mouth component to player character's that animates based on voice input.",
     "tags": []
+  },
+  {
+    "timestamp": 1760377930,
+    "commit": "0c209ecf1ba7e5942395d685ff038e8cd7682e8a",
+    "body": "Added functions to manually animate mouth, calling from voice SFX like hit impact and pain.",
+    "tags": []
   }
 ]
