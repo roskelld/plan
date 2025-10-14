@@ -55,3 +55,4 @@
 + VOIP issue is fixed. Required rolling back to an old version of the EOS SDK. Still not clear on the cause, but I've wasted enough time on it that I need to move on.
 + Added a mouth component to player character's that animates based on voice input.
 + Added functions to manually animate mouth, calling from voice SFX like hit impact and pain. 
++ Investigating applying attribute modifiers from worn items (example: Helmet grants physical resistance bonus)
