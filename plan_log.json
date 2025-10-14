@@ -346,5 +346,11 @@
     "commit": "0c209ecf1ba7e5942395d685ff038e8cd7682e8a",
     "body": "Added functions to manually animate mouth, calling from voice SFX like hit impact and pain.",
     "tags": []
+  },
+  {
+    "timestamp": 1760474312,
+    "commit": "8c75f0bcd2ed1c763be1fb0ce14bda3f534edacb",
+    "body": "Investigating applying attribute modifiers from worn items (example: Helmet grants physical resistance bonus)",
+    "tags": []
   }
 ]
