@@ -370,5 +370,11 @@
     "commit": "64afdbfb0576da3f3f7da8992fd83812e67a7e6b",
     "body": "Got burned by moving blueprints as we're currently storing hard references to them in player saves. Will add an asset manager and id references in future.",
     "tags": []
+  },
+  {
+    "timestamp": 1761171411,
+    "commit": "2bb0d7a96eaed89d83a01c7e5525c8dbfd5b191d",
+    "body": "Reworked seed spitting fungi to launch projectiles instead of hitscan attacks.",
+    "tags": []
   }
 ]
