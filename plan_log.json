@@ -376,5 +376,11 @@
     "commit": "2bb0d7a96eaed89d83a01c7e5525c8dbfd5b191d",
     "body": "Reworked seed spitting fungi to launch projectiles instead of hitscan attacks.",
     "tags": []
+  },
+  {
+    "timestamp": 1761360438,
+    "commit": "4cda39094846bf3c3b708d007b7c527c4f14603c",
+    "body": "Added giant seed spitting fungi to create a large scale area hazard that can cover a big chunk of an environment.",
+    "tags": []
   }
 ]
