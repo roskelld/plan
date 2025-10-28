@@ -394,5 +394,11 @@
     "commit": "a42ff5cce0bc9c0f676e05f687859cf5f523ddce",
     "body": "Investigating mantle issue.",
     "tags": []
+  },
+  {
+    "timestamp": 1761674213,
+    "commit": "88bfb4be556d4d78421ee108e836ec36475c8f5a",
+    "body": "Found some NaN issues in mantle checks causing players to mantle in place (dry hump the air) instead of fail out of mantle due to invalid location.",
+    "tags": []
   }
 ]
