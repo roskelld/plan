@@ -61,3 +61,5 @@
 + Got burned by moving blueprints as we're currently storing hard references to them in player saves. Will add an asset manager and id references in future.
 + Reworked seed spitting fungi to launch projectiles instead of hitscan attacks.
 + Added giant seed spitting fungi to create a large scale area hazard that can cover a big chunk of an environment.
++ Fixed up and polished giant seed spitter after early feedback.
++ Investigating mantle issue.
