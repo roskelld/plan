@@ -382,5 +382,17 @@
     "commit": "4cda39094846bf3c3b708d007b7c527c4f14603c",
     "body": "Added giant seed spitting fungi to create a large scale area hazard that can cover a big chunk of an environment.",
     "tags": []
+  },
+  {
+    "timestamp": 1761613934,
+    "commit": "a42ff5cce0bc9c0f676e05f687859cf5f523ddce",
+    "body": "Fixed up and polished giant seed spitter after early feedback.",
+    "tags": []
+  },
+  {
+    "timestamp": 1761613934,
+    "commit": "a42ff5cce0bc9c0f676e05f687859cf5f523ddce",
+    "body": "Investigating mantle issue.",
+    "tags": []
   }
 ]
