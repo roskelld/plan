@@ -63,3 +63,5 @@
 + Added giant seed spitting fungi to create a large scale area hazard that can cover a big chunk of an environment.
 + Fixed up and polished giant seed spitter after early feedback.
 + Investigating mantle issue.
++ Found some NaN issues in mantle checks causing players to mantle in place (dry hump the air) instead of fail out of mantle due to invalid location.
+
