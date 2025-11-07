@@ -64,4 +64,9 @@
 + Fixed up and polished giant seed spitter after early feedback.
 + Investigating mantle issue.
 + Found some NaN issues in mantle checks causing players to mantle in place (dry hump the air) instead of fail out of mantle due to invalid location.
++ Investigating converting wielded items (torch) to wearables instead of leaving them as spawned attached actors. This is to unify the player outfit inventory more so we use mesh attachments rather than actors.
++ Added some Halloween twists to this week's skelve
++ Refactoring actors by pushing base information into the datatable entry, and storing only deltas on the actor as part of the now named equipment (was wearables) system.
++ Settled on a polymorphic datatable design that allows us to use small modules to define properties of items, so equippable things like helms can incorporate a module that defines those properties.
++ Added Data Registry and adding functionality to actors so they can pull in data dynamically from it.
 
