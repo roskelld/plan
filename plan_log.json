@@ -436,5 +436,11 @@
     "commit": "cb25e3f393a2ab8e69f35bb1ab413df267ce4a22",
     "body": "Continuing work overhauling item/inventory system to work with new Data Registry setup",
     "tags": []
+  },
+  {
+    "timestamp": 1763059540,
+    "commit": "7281aba0122ab4586476505513cd65418b02cce9",
+    "body": "Slight change of strategy is requiring some extra work. Instead of letting clients access the Data Registry I'm going to replicate updates from the server. This requires the creation of small structs that I can use to replicate just the needed data per-update.",
+    "tags": []
   }
 ]
