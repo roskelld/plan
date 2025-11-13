@@ -70,4 +70,6 @@
 + Settled on a polymorphic datatable design that allows us to use small modules to define properties of items, so equippable things like helms can incorporate a module that defines those properties.
 + Added Data Registry and adding functionality to actors so they can pull in data dynamically from it.
 + Continuing work overhauling item/inventory system to work with new Data Registry setup
++ Slight change of strategy is requiring some extra work. Instead of letting clients access the Data Registry I'm going to replicate updates from the server. This requires the creation of small structs that I can use to replicate just the needed data per-update.
+ 
 
