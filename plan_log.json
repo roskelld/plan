@@ -454,5 +454,17 @@
     "commit": "9d7b20eba7a53301972952302cb4d55ddff46d07",
     "body": "Working on getting the build packaging and ensuring all new data is included",
     "tags": []
+  },
+  {
+    "timestamp": 1763421114,
+    "commit": "c03cc49e787b1ff1f07b879f84057f333c527703",
+    "body": "Upgraded SQL server to record data resitry ids instead of actor class name.",
+    "tags": []
+  },
+  {
+    "timestamp": 1763421114,
+    "commit": "c03cc49e787b1ff1f07b879f84057f333c527703",
+    "body": "Fixing health when item is spawned from server data.",
+    "tags": []
   }
 ]
