@@ -72,5 +72,7 @@
 + Continuing work overhauling item/inventory system to work with new Data Registry setup
 + Slight change of strategy is requiring some extra work. Instead of letting clients access the Data Registry I'm going to replicate updates from the server. This requires the creation of small structs that I can use to replicate just the needed data per-update.
 + Went back on the last idea and instead let clients pull from the data registry, with the server validating and replicating critical data via GAS.
-+ Working on getting the build packaging and ensuring all new data is included 
++ Working on getting the build packaging and ensuring all new data is included
++ Upgraded SQL server to record data resitry ids instead of actor class name.
++ Fixing health when item is spawned from server data. 
 
