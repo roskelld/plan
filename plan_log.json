@@ -478,5 +478,11 @@
     "commit": "3fc8e22d2ece1f860312c5ec7523044a55d28e4b",
     "body": "VFX for damage now use GameplayCue to trigger instead of being hardwired to health updates.",
     "tags": []
+  },
+  {
+    "timestamp": 1763503051,
+    "commit": "0920eb25ee0ab84fdafeee65fb99eae151e30b85",
+    "body": "Working on a solution for item actors that need child components, such as fire.",
+    "tags": []
   }
 ]
