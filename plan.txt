@@ -76,5 +76,6 @@
 + Upgraded SQL server to record data resitry ids instead of actor class name.
 + Fixing health when item is spawned from server data.
 + Server now corrects health on spawn if there's a saved override.
-+ VFX for damage now use GameplayCue to trigger instead of being hardwired to health updates. 
++ VFX for damage now use GameplayCue to trigger instead of being hardwired to health updates.
++ Working on a solution for item actors that need child components, such as fire. 
 
