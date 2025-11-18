@@ -466,5 +466,17 @@
     "commit": "c03cc49e787b1ff1f07b879f84057f333c527703",
     "body": "Fixing health when item is spawned from server data.",
     "tags": []
+  },
+  {
+    "timestamp": 1763496969,
+    "commit": "3fc8e22d2ece1f860312c5ec7523044a55d28e4b",
+    "body": "Server now corrects health on spawn if there's a saved override.",
+    "tags": []
+  },
+  {
+    "timestamp": 1763496969,
+    "commit": "3fc8e22d2ece1f860312c5ec7523044a55d28e4b",
+    "body": "VFX for damage now use GameplayCue to trigger instead of being hardwired to health updates.",
+    "tags": []
   }
 ]
