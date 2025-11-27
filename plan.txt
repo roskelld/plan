@@ -78,4 +78,8 @@
 + Server now corrects health on spawn if there's a saved override.
 + VFX for damage now use GameplayCue to trigger instead of being hardwired to health updates.
 + Working on a solution for item actors that need child components, such as fire. 
++ World items and character worn items now use same solution for attaching extra components, allowing VFX, lights other logic to be attached to sockets. Still some bugs to fix, but it's a good milestone.
++ Adding anim montage set based on equipped item. 
++ Redesigned how animation poses work when equipping items using a new dataset of item classes which allows for setting up poses when equipping items in either hand and adjusting based on offhand, thus allowing mix and match.
++ With the new pose system in I'm refactoring all existing anim states such as carry object and lift object.
 
