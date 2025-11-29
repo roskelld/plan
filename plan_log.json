@@ -520,5 +520,11 @@
     "commit": "5728c5717d6ba7a9ee5a5356966198a2f76d4bb2",
     "body": "Investagated",
     "tags": []
+  },
+  {
+    "timestamp": 1764436992,
+    "commit": "ad291c7f96a30bba52abcce553d2ffa53c3324aa",
+    "body": "Investigated store bought character models that have socket based mesh pieces to customize. It'll be a few weeks of effort to integrate them, but will allow to exploit the new equip system much more than the current sausage-like characters. Plus they'll look nicer on the eye.",
+    "tags": []
   }
 ]
