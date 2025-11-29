@@ -83,3 +83,5 @@
 + Redesigned how animation poses work when equipping items using a new dataset of item classes which allows for setting up poses when equipping items in either hand and adjusting based on offhand, thus allowing mix and match.
 + With the new pose system in I'm refactoring all existing anim states such as carry object and lift object.
 + Tested the game with the new equip system in place. Some good discoveries of things still to update and bugs. Major update is to handle equipment based gameplay abilities, such as torch actions. Ability needs to know where torch mesh was spawned and it's shape so it can detect collisions.
++ Investigated store bought character models that have socket based mesh pieces to customize. It'll be a few weeks of effort to integrate them, but will allow to exploit the new equip system much more than the current sausage-like characters. Plus they'll look nicer on the eye. 
+ 
