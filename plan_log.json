@@ -508,5 +508,17 @@
     "commit": "5034273f2f33b400f605e94bf2feda9673cf75c0",
     "body": "With the new pose system in I'm refactoring all existing anim states such as carry object and lift object.",
     "tags": []
+  },
+  {
+    "timestamp": 1764436484,
+    "commit": "5728c5717d6ba7a9ee5a5356966198a2f76d4bb2",
+    "body": "Tested the game with the new equip system in place. Some good discoveries of things still to update and bugs. Major update is to handle equipment based gameplay abilities, such as torch actions. Ability needs to know where torch mesh was spawned and it's shape so it can detect collisions.",
+    "tags": []
+  },
+  {
+    "timestamp": 1764436484,
+    "commit": "5728c5717d6ba7a9ee5a5356966198a2f76d4bb2",
+    "body": "Investagated",
+    "tags": []
   }
 ]
