@@ -526,5 +526,11 @@
     "commit": "ad291c7f96a30bba52abcce553d2ffa53c3324aa",
     "body": "Investigated store bought character models that have socket based mesh pieces to customize. It'll be a few weeks of effort to integrate them, but will allow to exploit the new equip system much more than the current sausage-like characters. Plus they'll look nicer on the eye.",
     "tags": []
+  },
+  {
+    "timestamp": 1764620462,
+    "commit": "824fafdd43bcb029281b9d246baa0a886b2858ec",
+    "body": "Planning out how to managed equipped item abilities such that there's a connection between the equipped elements (mesh+components), item attributes and ability action. Needs to handle having two of the same item equipped, such as a torch in both left and right hands.",
+    "tags": []
   }
 ]
