@@ -84,3 +84,4 @@
 + With the new pose system in I'm refactoring all existing anim states such as carry object and lift object.
 + Tested the game with the new equip system in place. Some good discoveries of things still to update and bugs. Major update is to handle equipment based gameplay abilities, such as torch actions. Ability needs to know where torch mesh was spawned and it's shape so it can detect collisions.
 + Investigated store bought character models that have socket based mesh pieces to customize. It'll be a few weeks of effort to integrate them, but will allow to exploit the new equip system much more than the current sausage-like characters. Plus they'll look nicer on the eye. 
++ Planning out how to managed equipped item abilities such that there's a connection between the equipped elements (mesh+components), item attributes and ability action. Needs to handle having two of the same item equipped, such as a torch in both left and right hands. 
