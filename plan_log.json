@@ -532,5 +532,23 @@
     "commit": "824fafdd43bcb029281b9d246baa0a886b2858ec",
     "body": "Planning out how to managed equipped item abilities such that there's a connection between the equipped elements (mesh+components), item attributes and ability action. Needs to handle having two of the same item equipped, such as a torch in both left and right hands.",
     "tags": []
+  },
+  {
+    "timestamp": 1765238547,
+    "commit": "954a171682b9cbdb3abf736689961f1366e5c20e",
+    "body": "Resolved abilities and equipped items by dynamically setting the action button based on where item is equipped.",
+    "tags": []
+  },
+  {
+    "timestamp": 1765238547,
+    "commit": "954a171682b9cbdb3abf736689961f1366e5c20e",
+    "body": "Got sick.",
+    "tags": []
+  },
+  {
+    "timestamp": 1765238547,
+    "commit": "954a171682b9cbdb3abf736689961f1366e5c20e",
+    "body": "Recovering slowly, working on some basic animations for equipped items.",
+    "tags": []
   }
 ]
