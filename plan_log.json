@@ -550,5 +550,11 @@
     "commit": "954a171682b9cbdb3abf736689961f1366e5c20e",
     "body": "Recovering slowly, working on some basic animations for equipped items.",
     "tags": []
+  },
+  {
+    "timestamp": 1765346453,
+    "commit": "fba1b33e407df2a60a96b112fd23dd8b4d1d3acd",
+    "body": "Added a montage playback system for abilities that integrates with the new pose system so it can suppress poses. Added to torch attack.",
+    "tags": []
   }
 ]
