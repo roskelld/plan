@@ -88,3 +88,4 @@
 + Resolved abilities and equipped items by dynamically setting the action button based on where item is equipped.
 + Got sick.
 + Recovering slowly, working on some basic animations for equipped items.
++ Added a montage playback system for abilities that integrates with the new pose system so it can suppress poses. Added to torch attack.
