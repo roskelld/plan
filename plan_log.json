@@ -556,5 +556,11 @@
     "commit": "fba1b33e407df2a60a96b112fd23dd8b4d1d3acd",
     "body": "Added a montage playback system for abilities that integrates with the new pose system so it can suppress poses. Added to torch attack.",
     "tags": []
+  },
+  {
+    "timestamp": 1765346487,
+    "commit": "7fd9f95ae2397093b20e33d12bfcaab5c72f7f41",
+    "body": "Fixing torch not correctly spawning components when dual weilding torches",
+    "tags": []
   }
 ]
