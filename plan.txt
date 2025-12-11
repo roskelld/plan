@@ -90,3 +90,4 @@
 + Recovering slowly, working on some basic animations for equipped items.
 + Added a montage playback system for abilities that integrates with the new pose system so it can suppress poses. Added to torch attack.
 + Fixing torch not correctly spawning components when dual weilding torches
++ Basic torch fixes done. Trying to quickly get carry object and equipped item (in hands) working together.
