@@ -562,5 +562,11 @@
     "commit": "7fd9f95ae2397093b20e33d12bfcaab5c72f7f41",
     "body": "Fixing torch not correctly spawning components when dual weilding torches",
     "tags": []
+  },
+  {
+    "timestamp": 1765493595,
+    "commit": "4a15766277b5a353c8dfcd5ce03da9fe4be74c55",
+    "body": "Basic torch fixes done. Trying to quickly get carry object and equipped item (in hands) working together.",
+    "tags": []
   }
 ]
