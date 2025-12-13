@@ -91,3 +91,4 @@
 + Added a montage playback system for abilities that integrates with the new pose system so it can suppress poses. Added to torch attack.
 + Fixing torch not correctly spawning components when dual weilding torches
 + Basic torch fixes done. Trying to quickly get carry object and equipped item (in hands) working together.
++ Got a host of bugs from playtest to fix. The basic setup for carrying objects and dealing with equipped tools (Sheathing) is in but needs more attention.
