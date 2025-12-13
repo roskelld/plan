@@ -568,5 +568,11 @@
     "commit": "4a15766277b5a353c8dfcd5ce03da9fe4be74c55",
     "body": "Basic torch fixes done. Trying to quickly get carry object and equipped item (in hands) working together.",
     "tags": []
+  },
+  {
+    "timestamp": 1765662542,
+    "commit": "170fd2294dfcdd057619d9b023aa08ac72d89ff5",
+    "body": "Got a host of bugs from playtest to fix. The basic setup for carrying objects and dealing with equipped tools (Sheathing) is in but needs more attention.",
+    "tags": []
   }
 ]
