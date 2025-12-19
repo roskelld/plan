@@ -574,5 +574,11 @@
     "commit": "170fd2294dfcdd057619d9b023aa08ac72d89ff5",
     "body": "Got a host of bugs from playtest to fix. The basic setup for carrying objects and dealing with equipped tools (Sheathing) is in but needs more attention.",
     "tags": []
+  },
+  {
+    "timestamp": 1766112999,
+    "commit": "89f185c502a5f1e8832fec8fbb6e006d58c35078",
+    "body": "Continuing with bug fixes and improvements related to the equipped tools setup.",
+    "tags": []
   }
 ]
