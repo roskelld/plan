@@ -93,3 +93,4 @@
 + Basic torch fixes done. Trying to quickly get carry object and equipped item (in hands) working together.
 + Got a host of bugs from playtest to fix. The basic setup for carrying objects and dealing with equipped tools (Sheathing) is in but needs more attention.
 + Continuing with bug fixes and improvements related to the equipped tools setup. 
++ Spent a few days putting improvements into the radial inventory system. I think I have the bones of a more intuative and in
