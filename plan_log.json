@@ -592,5 +592,17 @@
     "commit": "7007b1ef00370b9530702bab46f02dfffc482418",
     "body": "Spent a few days putting improvements into the radial inventory system. I think I have the bones of a more intuative and instructive setup now with button prompts and hold down button timers.",
     "tags": []
+  },
+  {
+    "timestamp": 1767490098,
+    "commit": "cb466759a33128fdd687d2f17a6ce97e06e91e44",
+    "body": "Back from the festive break. Continued to polish the UI, starting to add pre-checks for interaction prompts so that they only appear enabled if the player can perform them. So Pickup object will appear disabled if the character's hands are full.",
+    "tags": []
+  },
+  {
+    "timestamp": 1767490355,
+    "commit": "2084f7dd1d1b8e363197d6695b28982060c53f75",
+    "body": "Setup a newer PC to improve build times so I'm enjoying the teething issues of finding all those little customizations I'm now missing.",
+    "tags": []
   }
 ]
