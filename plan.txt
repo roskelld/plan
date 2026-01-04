@@ -95,3 +95,4 @@
 + Continuing with bug fixes and improvements related to the equipped tools setup. 
 + Spent a few days putting improvements into the radial inventory system. I think I have the bones of a more intuative and instructive setup now with button prompts and hold down button timers.
 + Back from the festive break. Continued to polish the UI, starting to add pre-checks for interaction prompts so that they only appear enabled if the player can perform them. So Pickup object will appear disabled if the character's hands are full.
++ Setup a newer PC to improve build times so I'm enjoying the teething issues of finding all those little customizations I'm now missing.
