@@ -43,7 +43,7 @@ plan/
 1. **Clone the repository**:
 
    ```powershell
-   git clone https://github.com/roskell/plan.git
+   git clone https://github.com/roskelld/plan.git
    cd plan
    ```
 
