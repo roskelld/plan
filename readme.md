@@ -56,7 +56,10 @@ plan/
    More lines...
    #tag1 #tag2
    ```
+3. **Customize script**:
 
+   Edit `git_push_plan.ps1` and replace the working directory with your install location on line 8.
+   
 4. **Configure Watchman trigger**:
 
    ```powershell
@@ -69,6 +72,8 @@ plan/
    ```powershell
    Set-ExecutionPolicy Bypass -Scope CurrentUser
    ```
+6. **[OPTIONAL] Add BurntToast notification module**
+   Follow instructions in their github repro: [BuntToast Github](https://github.com/Windos/BurntToast)
 
 ## Usage
 
