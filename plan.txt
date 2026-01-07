@@ -96,3 +96,4 @@
 + Spent a few days putting improvements into the radial inventory system. I think I have the bones of a more intuative and instructive setup now with button prompts and hold down button timers.
 + Back from the festive break. Continued to polish the UI, starting to add pre-checks for interaction prompts so that they only appear enabled if the player can perform them. So Pickup object will appear disabled if the character's hands are full.
 + Setup a newer PC to improve build times so I'm enjoying the teething issues of finding all those little customizations I'm now missing.
++ Added another interaction button, cause now we need three ways to interact. Working on adding a button that will send an item into storage (if the player has any). I also added the start of showing on the inventory screen which items have storage, the plan there is to allow players to open a sub inventory menu to interact with an item's stored item set. 
