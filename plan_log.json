@@ -604,5 +604,11 @@
     "commit": "2084f7dd1d1b8e363197d6695b28982060c53f75",
     "body": "Setup a newer PC to improve build times so I'm enjoying the teething issues of finding all those little customizations I'm now missing.",
     "tags": []
+  },
+  {
+    "timestamp": 1767765687,
+    "commit": "e5f9fd5c869a588f7466454cee865cfe4e4e5080",
+    "body": "Added another interaction button, cause now we need three ways to interact. Working on adding a button that will send an item into storage (if the player has any). I also added the start of showing on the inventory screen which items have storage, the plan there is to allow players to open a sub inventory menu to interact with an item's stored item set.",
+    "tags": []
   }
 ]
