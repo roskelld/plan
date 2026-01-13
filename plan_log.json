@@ -610,5 +610,23 @@
     "commit": "e5f9fd5c869a588f7466454cee865cfe4e4e5080",
     "body": "Added another interaction button, cause now we need three ways to interact. Working on adding a button that will send an item into storage (if the player has any). I also added the start of showing on the inventory screen which items have storage, the plan there is to allow players to open a sub inventory menu to interact with an item's stored item set.",
     "tags": []
+  },
+  {
+    "timestamp": 1768344547,
+    "commit": "53136d7e819d97adf08e46fcfd56b717cbf66d32",
+    "body": "Using one of the new interaction buttons, I added the ability to pickup an object and place it straight into storage. This got the equipment belt working again so we now have an example to build the sub inventory UI around. Side quest: Update mesh attachments so they can use pivot offset sockets, meaning that their attach placement can be custom per slot type, so don't position oddly when attached to things like equipment belts.",
+    "tags": []
+  },
+  {
+    "timestamp": 1768344547,
+    "commit": "53136d7e819d97adf08e46fcfd56b717cbf66d32",
+    "body": "Side quest: updating the game launcher to use the proper name and setting up a sharable download link for it using the custom domain.",
+    "tags": []
+  },
+  {
+    "timestamp": 1768344547,
+    "commit": "53136d7e819d97adf08e46fcfd56b717cbf66d32",
+    "body": "Completed side quest: Launcher updated, and https://deepwyrd.com/ created so now we have a link we can share.",
+    "tags": []
   }
 ]
