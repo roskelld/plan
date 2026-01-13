@@ -5,7 +5,7 @@
 # ───────────────────────────────────────────────────────────────────
 
 # Navigate to repo
-cd "D:\_Dev\git\plan"
+cd "D:\Dev\plan"
 
 # Only commit if plan.txt changed
 git diff --quiet plan.txt
