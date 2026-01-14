@@ -1,7 +1,7 @@
 import json
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import defaultdict
 
 # Paths
@@ -17,7 +17,7 @@ def build_structure(entries):
     # Organize entries by year, then month, then day
     structure = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     for e in entries:
-        dt = datetime.utcfromtimestamp(e["timestamp"])
+        dt = datetime.fromtimestamp(e["timestamp"], timezone.utc)
         y = dt.strftime("%Y")
         m = dt.strftime("%Y-%m")
         d = dt.strftime("%Y-%m-%d")
