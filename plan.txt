@@ -101,3 +101,5 @@
 + Side quest: updating the game launcher to use the proper name and setting up a sharable download link for it using the custom domain. 
 + Completed side quest: Launcher updated, and https://deepwyrd.com/ created so now we have a link we can share.
 + Continuing work on radial menu tweaks.
++ One inventory function is switching the location of an item, such as from hand to sheath, or storage slot to equip slot. The database is erroring when trying to store the change so will need to investigate the API functions. 
++ Database issue resolved, back to adding more inventory management options. Next up swap hand equipped items such as move sword from left to right hand. 
