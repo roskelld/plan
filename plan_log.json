@@ -634,5 +634,17 @@
     "commit": "60a89dfe9858031bee84421dc4d699d034300673",
     "body": "Continuing work on radial menu tweaks.",
     "tags": []
+  },
+  {
+    "timestamp": 1768429089,
+    "commit": "821e52d473efb4d7e286e8582f24cc2867cc3f47",
+    "body": "One inventory function is switching the location of an item, such as from hand to sheath, or storage slot to equip slot. The database is erroring when trying to store the change so will need to investigate the API functions.",
+    "tags": []
+  },
+  {
+    "timestamp": 1768429089,
+    "commit": "821e52d473efb4d7e286e8582f24cc2867cc3f47",
+    "body": "Database issue resolved, back to adding more inventory management options. Next up swap hand equipped items such as move sword from left to right hand.",
+    "tags": []
   }
 ]
