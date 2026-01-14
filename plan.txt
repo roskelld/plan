@@ -100,3 +100,4 @@
 + Using one of the new interaction buttons, I added the ability to pickup an object and place it straight into storage. This got the equipment belt working again so we now have an example to build the sub inventory UI around. Side quest: Update mesh attachments so they can use pivot offset sockets, meaning that their attach placement can be custom per slot type, so don't position oddly when attached to things like equipment belts. 
 + Side quest: updating the game launcher to use the proper name and setting up a sharable download link for it using the custom domain. 
 + Completed side quest: Launcher updated, and https://deepwyrd.com/ created so now we have a link we can share.
++ Continuing work on radial menu tweaks.
