@@ -81,10 +81,28 @@ def generate_html(structure):
                 html.append(f"<h4 id='{day}'>{full_label}</h4>")
                 for e in reversed(structure[year][month][day]):
                     body = html_escape(e["body"]).replace("\n", "<br>")
+                    code_spans = []
+                    def stash_code(match):
+                        code_spans.append(match.group(1))
+                        return f"__CODE_SPAN_{len(code_spans) - 1}__"
+
+                    body = re.sub(r"`([^`]+)`", stash_code, body)
                     # link tags
                     body = re.sub(r"#(\w+)", r"<a class='tag' href='#\1'>#\1</a>", body)
-                    # Auto-link inline code spans
-                    body = re.sub(r"`([^`]+)`", r"<code class='inline-code'>\1</code>", body)
+                    # Auto-link web addresses
+                    def linkify(match):
+                        url = match.group("url")
+                        trail = ""
+                        while url and url[-1] in ".,);:!?]}>":
+                            trail = url[-1] + trail
+                            url = url[:-1]
+                        href = url if url.startswith("http") else f"http://{url}"
+                        return f"<a class='weblink' href='{href}' rel='noopener noreferrer' target='_blank'>{url}</a>{trail}"
+
+                    body = re.sub(r"(?P<url>(https?://|www\.)[^\s<]+)", linkify, body)
+                    # Restore inline code spans
+                    for idx, code in enumerate(code_spans):
+                        body = body.replace(f"__CODE_SPAN_{idx}__", f"<code class='inline-code'>{code}</code>")
                     cid = e["commit"][:7]
                     html.append(
                         f"<div id='entry-{cid}' class='entry'>{body}"
