@@ -646,5 +646,11 @@
     "commit": "821e52d473efb4d7e286e8582f24cc2867cc3f47",
     "body": "Database issue resolved, back to adding more inventory management options. Next up swap hand equipped items such as move sword from left to right hand.",
     "tags": []
+  },
+  {
+    "timestamp": 1768513582,
+    "commit": "b6ea24ac44029ea67e441d773d8cb029652489c0",
+    "body": "Added gameplay tag store to item modifier parameter, this is now checked when equipping items for any matching activation tag so it can trigger child components. This is setup on the torch, which if already ignited will reignite if the player switches hands, or quits and reloads.",
+    "tags": []
   }
 ]
