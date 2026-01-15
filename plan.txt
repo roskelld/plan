@@ -103,3 +103,4 @@
 + Continuing work on radial menu tweaks.
 + One inventory function is switching the location of an item, such as from hand to sheath, or storage slot to equip slot. The database is erroring when trying to store the change so will need to investigate the API functions. 
 + Database issue resolved, back to adding more inventory management options. Next up swap hand equipped items such as move sword from left to right hand. 
++ Added gameplay tag store to item modifier parameter, this is now checked when equipping items for any matching activation tag so it can trigger child components. This is setup on the torch, which if already ignited will reignite if the player switches hands, or quits and reloads. 
