@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Testing and fixing new game launcher setup for next playtest.' />
+<meta property='og:description' content='Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client charact...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -42,6 +42,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-01'></label>
+<h4 id='2026-01-21'>January 21, 2026</h4>
+<div id='entry-002fb82' class='entry'>Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client character therefore the collision was failing to sync with the client state. I added a client triggered event loop that periodically sends its collision transform to correct the server. Run on a low update frequency it should be good for networking. Not sure how other projects handle situations like this.<div class='tags'>Commit 002fb82</div></div>
 <h4 id='2026-01-15'>January 15, 2026</h4>
 <div id='entry-945bf5e' class='entry'>Testing and fixing new game launcher setup for next playtest.<div class='tags'>Commit 945bf5e</div></div>
 <div id='entry-b6ea24a' class='entry'>Added gameplay tag store to item modifier parameter, this is now checked when equipping items for any matching activation tag so it can trigger child components. This is setup on the torch, which if already ignited will reignite if the player switches hands, or quits and reloads.<div class='tags'>Commit b6ea24a</div></div>

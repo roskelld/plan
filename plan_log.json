@@ -658,5 +658,11 @@
     "commit": "945bf5e959d362094718a7fb335c7a462d342de0",
     "body": "Testing and fixing new game launcher setup for next playtest.",
     "tags": []
+  },
+  {
+    "timestamp": 1768971135,
+    "commit": "002fb82a75c8ab3d6fb00a3bd7c7be28a51667dc",
+    "body": "Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client character therefore the collision was failing to sync with the client state. I added a client triggered event loop that periodically sends its collision transform to correct the server. Run on a low update frequency it should be good for networking. Not sure how other projects handle situations like this.",
+    "tags": []
   }
 ]
