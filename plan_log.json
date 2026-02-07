@@ -664,5 +664,35 @@
     "commit": "002fb82a75c8ab3d6fb00a3bd7c7be28a51667dc",
     "body": "Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client character therefore the collision was failing to sync with the client state. I added a client triggered event loop that periodically sends its collision transform to correct the server. Run on a low update frequency it should be good for networking. Not sure how other projects handle situations like this.",
     "tags": []
+  },
+  {
+    "timestamp": 1770493903,
+    "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
+    "body": "Fixed GAS attributes not getting applied to loaded items, which caused damaged items brought back from Skelves to be 100% health on load.",
+    "tags": []
+  },
+  {
+    "timestamp": 1770493903,
+    "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
+    "body": "Investigating the steps to bring in new character assets so we can switch from capsules and expand the equipment. Plus make things look more like a game.",
+    "tags": []
+  },
+  {
+    "timestamp": 1770493903,
+    "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
+    "body": "Got new character meshes spawning with basic movement animation. Currently working on getting the equipment system compatible with skeletal meshes.",
+    "tags": []
+  },
+  {
+    "timestamp": 1770493903,
+    "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
+    "body": "New character setup needs a base mesh set defined so when a player removes a worn item such as boot or glove the system can fall back to their default body part. Adding it to the character definition.",
+    "tags": []
+  },
+  {
+    "timestamp": 1770493903,
+    "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
+    "body": "Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.",
+    "tags": []
   }
 ]

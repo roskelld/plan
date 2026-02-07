@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client charact...' />
+<meta property='og:description' content='Fixed GAS attributes not getting applied to loaded items, which caused damaged items brought back from Skelves to be 100% health on load.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -17,6 +17,8 @@
 <summary>Jump to…</summary>
 <nav><ul>
 <li><a href='#2026'>2026</a><ul>
+<li><a href='#2026-02'>February</a>
+</li>
 <li><a href='#2026-01'>January</a>
 </li>
 </ul></li>
@@ -41,6 +43,13 @@
 </ul></nav>
 </details>
 <label id='2026'></label>
+<label id='2026-02'></label>
+<h4 id='2026-02-07'>February 07, 2026</h4>
+<div id='entry-a395c6b' class='entry'>Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.<div class='tags'>Commit a395c6b</div></div>
+<div id='entry-a395c6b' class='entry'>New character setup needs a base mesh set defined so when a player removes a worn item such as boot or glove the system can fall back to their default body part. Adding it to the character definition.<div class='tags'>Commit a395c6b</div></div>
+<div id='entry-a395c6b' class='entry'>Got new character meshes spawning with basic movement animation. Currently working on getting the equipment system compatible with skeletal meshes.<div class='tags'>Commit a395c6b</div></div>
+<div id='entry-a395c6b' class='entry'>Investigating the steps to bring in new character assets so we can switch from capsules and expand the equipment. Plus make things look more like a game.<div class='tags'>Commit a395c6b</div></div>
+<div id='entry-a395c6b' class='entry'>Fixed GAS attributes not getting applied to loaded items, which caused damaged items brought back from Skelves to be 100% health on load.<div class='tags'>Commit a395c6b</div></div>
 <label id='2026-01'></label>
 <h4 id='2026-01-21'>January 21, 2026</h4>
 <div id='entry-002fb82' class='entry'>Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client character therefore the collision was failing to sync with the client state. I added a client triggered event loop that periodically sends its collision transform to correct the server. Run on a low update frequency it should be good for networking. Not sure how other projects handle situations like this.<div class='tags'>Commit 002fb82</div></div>
