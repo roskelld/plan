@@ -106,3 +106,9 @@
 + Added gameplay tag store to item modifier parameter, this is now checked when equipping items for any matching activation tag so it can trigger child components. This is setup on the torch, which if already ignited will reignite if the player switches hands, or quits and reloads. 
 + Testing and fixing new game launcher setup for next playtest.
 + Spent the day figuring out an issue when clients are far from server they can fail to ignite objects using the torch ability. This was due to the server not animating its version of the client character therefore the collision was failing to sync with the client state. I added a client triggered event loop that periodically sends its collision transform to correct the server. Run on a low update frequency it should be good for networking. Not sure how other projects handle situations like this.
++ Fixed GAS attributes not getting applied to loaded items, which caused damaged items brought back from Skelves to be 100% health on load. 
++ Investigating the steps to bring in new character assets so we can switch from capsules and expand the equipment. Plus make things look more like a game. 
++ Got new character meshes spawning with basic movement animation. Currently working on getting the equipment system compatible with skeletal meshes.
++ New character setup needs a base mesh set defined so when a player removes a worn item such as boot or glove the system can fall back to their default body part. Adding it to the character definition.
++ Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.
+
