@@ -111,4 +111,5 @@
 + Got new character meshes spawning with basic movement animation. Currently working on getting the equipment system compatible with skeletal meshes.
 + New character setup needs a base mesh set defined so when a player removes a worn item such as boot or glove the system can fall back to their default body part. Adding it to the character definition.
 + Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.
++ Dealing with an issue that throws socketed items out of sync due to the aim offset system. It controls the skeleton from the pelvis, which includes that arms and due to that socketed items stop tracking animation correctly. My suspicion is that they animate from their original root instead of the attachment location.
 
