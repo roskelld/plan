@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Fixed GAS attributes not getting applied to loaded items, which caused damaged items brought back from Skelves to be 100% health on load.' />
+<meta property='og:description' content='Dealing with an issue that throws socketed items out of sync due to the aim offset system. It controls the skeleton from the pelvis, which includes that arms and due to that socketed items stop tracki...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -44,6 +44,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-02'></label>
+<h4 id='2026-02-09'>February 09, 2026</h4>
+<div id='entry-2ea6400' class='entry'>Dealing with an issue that throws socketed items out of sync due to the aim offset system. It controls the skeleton from the pelvis, which includes that arms and due to that socketed items stop tracking animation correctly. My suspicion is that they animate from their original root instead of the attachment location.<div class='tags'>Commit 2ea6400</div></div>
 <h4 id='2026-02-07'>February 07, 2026</h4>
 <div id='entry-a395c6b' class='entry'>Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.<div class='tags'>Commit a395c6b</div></div>
 <div id='entry-a395c6b' class='entry'>New character setup needs a base mesh set defined so when a player removes a worn item such as boot or glove the system can fall back to their default body part. Adding it to the character definition.<div class='tags'>Commit a395c6b</div></div>

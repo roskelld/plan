@@ -694,5 +694,11 @@
     "commit": "a395c6b5b22fee45237915103f82f826d29db4a7",
     "body": "Making progress on the new character. Setup a default mesh set in the data table and now use that to spawn the base character before equipment is applied, and use it to revert to when equipment is removed.",
     "tags": []
+  },
+  {
+    "timestamp": 1770660104,
+    "commit": "2ea6400e3ac5934fce093d3616b729ad11fa0c2e",
+    "body": "Dealing with an issue that throws socketed items out of sync due to the aim offset system. It controls the skeleton from the pelvis, which includes that arms and due to that socketed items stop tracking animation correctly. My suspicion is that they animate from their original root instead of the attachment location.",
+    "tags": []
   }
 ]
