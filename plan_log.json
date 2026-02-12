@@ -700,5 +700,11 @@
     "commit": "2ea6400e3ac5934fce093d3616b729ad11fa0c2e",
     "body": "Dealing with an issue that throws socketed items out of sync due to the aim offset system. It controls the skeleton from the pelvis, which includes that arms and due to that socketed items stop tracking animation correctly. My suspicion is that they animate from their original root instead of the attachment location.",
     "tags": []
+  },
+  {
+    "timestamp": 1770873953,
+    "commit": "2fada120583645d0e1d78b9d9479154f4ff379e1",
+    "body": "Resolved the socket aim offset issue. Turned out that I needed to filter out the arms from the head rotate/lean.",
+    "tags": []
   }
 ]
