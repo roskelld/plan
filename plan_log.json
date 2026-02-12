@@ -706,5 +706,11 @@
     "commit": "2fada120583645d0e1d78b9d9479154f4ff379e1",
     "body": "Resolved the socket aim offset issue. Turned out that I needed to filter out the arms from the head rotate/lean.",
     "tags": []
+  },
+  {
+    "timestamp": 1770874019,
+    "commit": "24b40522d7c8b8805d30692a24ed5a93fa6f94d8",
+    "body": "Working on some pose animations for the new character. Ran into an issue where the control rig screws up the skeleton. I believe I've resolved this now, the issue was in the original asset file so I posted a fix to the creator.",
+    "tags": []
   }
 ]
