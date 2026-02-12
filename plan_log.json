@@ -712,5 +712,11 @@
     "commit": "24b40522d7c8b8805d30692a24ed5a93fa6f94d8",
     "body": "Working on some pose animations for the new character. Ran into an issue where the control rig screws up the skeleton. I believe I've resolved this now, the issue was in the original asset file so I posted a fix to the creator.",
     "tags": []
+  },
+  {
+    "timestamp": 1770874140,
+    "commit": "363d697e0da1c45d2aba78e0bddffa2efe19efe8",
+    "body": "I was trying to get Unreal and Blender to pass skeletal meshes between them using FBX but for the life of me I can't get the skeleton to stay in sync. They both interpret the data differently and screw up the skeleton binding. For now I can do simple things like import weapon meshes as static and get Unreal to convert them to skeletal, but I'll need to figure out a solution for handling the full character rig soon.",
+    "tags": []
   }
 ]
