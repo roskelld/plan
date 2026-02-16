@@ -724,5 +724,11 @@
     "commit": "31b563aa0d568d363dda5e208298bfbdccdccbbe",
     "body": "Oddly enough I just did the Unreal <> Blender transfer of a character skeletal mesh and it worked fine. So it seems that my attempt to use a \"simple\" one boned skeleton caused all the issues. I'll hopefully get to replacing the existing three character types later this week.",
     "tags": []
+  },
+  {
+    "timestamp": 1771276630,
+    "commit": "df60c67ea3dce1f41b92b70cd7bb60125e73cc61",
+    "body": "Upon further investigation this is character mesh stuff is more complex due to the character's being modular. Scaling meshes and reimporting to the original skeleton causes undesired mesh offset. There's a few potential paths through this, each with their own costs. I think I'll have to go for creating a new skeleton and then investigate the re-targeting feature of Unreal.",
+    "tags": []
   }
 ]
