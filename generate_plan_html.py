@@ -2,12 +2,14 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 # Paths
 DATA_FILE = Path("plan_log.json")
 OUT_FILE = Path("index.html")
 SITE_URL = "https://roskelld.github.io/plan"
+LOCAL_TZ = ZoneInfo("America/Denver")
 
 def load_entries():
     return json.loads(DATA_FILE.read_text(encoding="utf-8"))
@@ -108,9 +110,13 @@ def generate_html(structure):
                     for idx, code in enumerate(code_spans):
                         body = body.replace(f"__CODE_SPAN_{idx}__", f"<code class='inline-code'>{code}</code>")
                     cid = e["commit"][:7]
+                    time_label = datetime.fromtimestamp(
+                        e["timestamp"],
+                        LOCAL_TZ,
+                    ).strftime("%I:%M%p").lstrip("0").lower()
                     html.append(
                         f"<div id='entry-{cid}' class='entry'>{body}"
-                        f"<div class='tags'>Commit {cid}</div></div>"
+                        f"<div class='tags'><div>Commit {cid}</div><div>{time_label}</div></div></div>"
                     )
     html.append("</body></html>")
     return "\n".join(html)

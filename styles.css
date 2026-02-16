@@ -71,6 +71,8 @@ details>summary {
   font-size: 0.9rem;
   font-style: italic;
   color: var(--uchu-gray-5);
+  display: flex;
+  gap: 0.6rem;
 }
 
 code {
