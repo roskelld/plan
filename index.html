@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='I was trying to get Unreal and Blender to pass skeletal meshes between them using FBX but for the life of me I can't get the skeleton to stay in sync. They both interpret the data differently and scre...' />
+<meta property='og:description' content='Oddly enough I just did the Unreal &lt;&gt; Blender transfer of a character skeletal mesh and it worked fine. So it seems that my attempt to use a "simple" one boned skeleton caused all the issues. I'...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -44,6 +44,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-02'></label>
+<h4 id='2026-02-16'>February 16, 2026</h4>
+<div id='entry-31b563a' class='entry'>Oddly enough I just did the Unreal &lt;&gt; Blender transfer of a character skeletal mesh and it worked fine. So it seems that my attempt to use a "simple" one boned skeleton caused all the issues. I'll hopefully get to replacing the existing three character types later this week.<div class='tags'>Commit 31b563a</div></div>
 <h4 id='2026-02-12'>February 12, 2026</h4>
 <div id='entry-363d697' class='entry'>I was trying to get Unreal and Blender to pass skeletal meshes between them using FBX but for the life of me I can't get the skeleton to stay in sync. They both interpret the data differently and screw up the skeleton binding. For now I can do simple things like import weapon meshes as static and get Unreal to convert them to skeletal, but I'll need to figure out a solution for handling the full character rig soon.<div class='tags'>Commit 363d697</div></div>
 <div id='entry-24b4052' class='entry'>Working on some pose animations for the new character. Ran into an issue where the control rig screws up the skeleton. I believe I've resolved this now, the issue was in the original asset file so I posted a fix to the creator.<div class='tags'>Commit 24b4052</div></div>
