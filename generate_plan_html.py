@@ -79,7 +79,11 @@ def generate_html(structure):
             for day in sorted(structure[year][month].keys(), reverse=True):
                 full_label = datetime.strptime(day, "%Y-%m-%d").strftime("%B %d, %Y")
                 html.append(f"<h4 id='{day}'>{full_label}</h4>")
-                for e in reversed(structure[year][month][day]):
+                entries_for_day = sorted(
+                    structure[year][month][day],
+                    key=lambda e: e["timestamp"],
+                )
+                for e in entries_for_day:
                     body = html_escape(e["body"]).replace("\n", "<br>")
                     code_spans = []
                     def stash_code(match):
