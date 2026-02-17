@@ -119,5 +119,6 @@
 + Upon further investigation this is character mesh stuff is more complex due to the character's being modular. Scaling meshes and reimporting to the original skeleton causes undesired mesh offset. There's a few potential paths through this, each with their own costs. I think I'll have to go for creating a new skeleton and then investigate the re-targeting feature of Unreal.
 + Note to self: When you say I won't look at this until I've finished the other things, don't then go and look at it. Curiosity is a time killer.
 + The original inspiration for this platform was the finger protocol, which I would like to get working at some point, but over the last few days I realise that I could also publish this as a gopher, so I'm looking into doing that.
++ #Ignore testing out an update to the script that builds the site and pushes it live.
 
 
