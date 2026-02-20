@@ -750,5 +750,11 @@
     "tags": [
       "Ignore"
     ]
+  },
+  {
+    "timestamp": 1771564340,
+    "commit": "8679314c6b0134a505a3996fc9050013313bc6f5",
+    "body": "Another push to get the character close to a basic functional state. Playtest revealed some oddities where one player could not see themselves equip items, and we had a few issues with animations not trigger. Still, it's closer.",
+    "tags": []
   }
 ]
