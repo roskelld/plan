@@ -120,5 +120,6 @@
 + Note to self: When you say I won't look at this until I've finished the other things, don't then go and look at it. Curiosity is a time killer.
 + The original inspiration for this platform was the finger protocol, which I would like to get working at some point, but over the last few days I realise that I could also publish this as a gopher, so I'm looking into doing that.
 + #Ignore testing out an update to the script that builds the site and pushes it live.
++ Another push to get the character close to a basic functional state. Playtest revealed some oddities where one player could not see themselves equip items, and we had a few issues with animations not trigger. Still, it's closer.
 
 
