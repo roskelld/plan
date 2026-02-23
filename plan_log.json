@@ -756,5 +756,11 @@
     "commit": "8679314c6b0134a505a3996fc9050013313bc6f5",
     "body": "Another push to get the character close to a basic functional state. Playtest revealed some oddities where one player could not see themselves equip items, and we had a few issues with animations not trigger. Still, it's closer.",
     "tags": []
+  },
+  {
+    "timestamp": 1771875109,
+    "commit": "cd5c1c30f3ffe1ea8481d20c1dd971a97d5cc819",
+    "body": "Trying to reorganize the folder structure as we've imported assets. The challenge I'm facing is knowing we'll be bringing in more assets in the future, so the solution will need to be reapplied to those including assigning existing modified assets on to imported assets. In my test this morning I already created an issue where I ported a new asset over an existing one, losing our local modifications (Version control to the rescue). This is all sounding like a script might help solve the problem.",
+    "tags": []
   }
 ]
