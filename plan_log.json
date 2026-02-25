@@ -768,5 +768,11 @@
     "commit": "50991f601eb922768b00f6bf72df021c76b9272d",
     "body": "I went down the script route to handle asset importing. Created a Python script to go through the assets and move them using editor functions so that links aren't broken and it can handle reassigning to existing assets. First run was very very slow, like 6 hours. When checking the logs each file was hitting source control at every check and without batching. I've hopefully improved that and found a few bits that need further reorg. Felt like a case of automating something ending up taking much longer than manually doing it, but as I plan on doing this a bunch of times it should save in the long run.",
     "tags": []
+  },
+  {
+    "timestamp": 1772001244,
+    "commit": "4fd345738290618e8e0420a7962a49c0d25ab515",
+    "body": "Now I have a good bunch of base actions and character states setup, which has provided me with enough examples to show how I need to expand this to be multi-race compatiable. So things like abilities that use AnimMontages will need to pull race specific anims, same for poses. So I'm setting off to get these base systems future race proof.",
+    "tags": []
   }
 ]
