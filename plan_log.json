@@ -774,5 +774,11 @@
     "commit": "4fd345738290618e8e0420a7962a49c0d25ab515",
     "body": "Now I have a good bunch of base actions and character states setup, which has provided me with enough examples to show how I need to expand this to be multi-race compatiable. So things like abilities that use AnimMontages will need to pull race specific anims, same for poses. So I'm setting off to get these base systems future race proof.",
     "tags": []
+  },
+  {
+    "timestamp": 1772323580,
+    "commit": "3e3e2948561d8d41ffbd05534dce01d2042c9c25",
+    "body": "Working on a different method of weapon attack (or action) so we can have alternate actions. The switch is to have attacks based on input release, rather than input press. The release will be used for \"charge\", which given the slower nature of the game and focus on physicality should play into that. The second part is whilst holding the primary input, the player can press (and hold) the secondary input to switch the action. Going to test this concept out on the torch, which has a hit attack and a secondary hold out torch for burning targets.",
+    "tags": []
   }
 ]
