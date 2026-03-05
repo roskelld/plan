@@ -786,5 +786,11 @@
     "commit": "6963476997784341b11e77eb4dce2e00b437d997",
     "body": "Completed the pass on weapon attack logic. It feels pretty good. As I added it I got more thoughts on how to structure AnimMontages so that they can hold all the different animations for an item. In the case of the torch it handles the main action (attack) and secondary (hold out), but could also have multiple attacks, so the longer the weapon is held in the \"charge\" state the bigger the swing. It could also handle hit knockbacks for when the weapon collides on a hit. One key part missing right now is blending between states as we just jump between montage sections. I need to look into this and hope it doesn't produce a dead end.",
     "tags": []
+  },
+  {
+    "timestamp": 1772739747,
+    "commit": "4bf23434a358feb92313128ae09b2ed587cfef3f",
+    "body": "Needed to fix some issues with the rope system. It was spawning the wrong mesh for clients and we were finding people kept accidently picked the rope back up instead of climbed it. One thing that was bugging me was how you could pick up the rope from any point of interaction, that doesn't make sense if the player is standing at the bottom of a dangling rope. The challenge was that interactable objects had one state of interaction. We detected them through a trace and returned their interaction parameters. I've now updated this system so that it passes through the collision component hit by the trace. So in the case of the rope I can detect if it hit the rope or the point where it's affixed to the level. The rope will only allow climbing now.",
+    "tags": []
   }
 ]
