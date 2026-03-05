@@ -780,5 +780,11 @@
     "commit": "3e3e2948561d8d41ffbd05534dce01d2042c9c25",
     "body": "Working on a different method of weapon attack (or action) so we can have alternate actions. The switch is to have attacks based on input release, rather than input press. The release will be used for \"charge\", which given the slower nature of the game and focus on physicality should play into that. The second part is whilst holding the primary input, the player can press (and hold) the secondary input to switch the action. Going to test this concept out on the torch, which has a hit attack and a secondary hold out torch for burning targets.",
     "tags": []
+  },
+  {
+    "timestamp": 1772739491,
+    "commit": "6963476997784341b11e77eb4dce2e00b437d997",
+    "body": "Completed the pass on weapon attack logic. It feels pretty good. As I added it I got more thoughts on how to structure AnimMontages so that they can hold all the different animations for an item. In the case of the torch it handles the main action (attack) and secondary (hold out), but could also have multiple attacks, so the longer the weapon is held in the \"charge\" state the bigger the swing. It could also handle hit knockbacks for when the weapon collides on a hit. One key part missing right now is blending between states as we just jump between montage sections. I need to look into this and hope it doesn't produce a dead end.",
+    "tags": []
   }
 ]

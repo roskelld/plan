@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Working on a different method of weapon attack (or action) so we can have alternate actions. The switch is to have attacks based on input release, rather than input press. The release will be used for...' />
+<meta property='og:description' content='Completed the pass on weapon attack logic. It feels pretty good. As I added it I got more thoughts on how to structure AnimMontages so that they can hold all the different animations for an item. In t...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -46,6 +46,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-03'></label>
+<h4 id='2026-03-05'>March 05, 2026</h4>
+<div id='entry-6963476' class='entry'>Completed the pass on weapon attack logic. It feels pretty good. As I added it I got more thoughts on how to structure AnimMontages so that they can hold all the different animations for an item. In the case of the torch it handles the main action (attack) and secondary (hold out), but could also have multiple attacks, so the longer the weapon is held in the "charge" state the bigger the swing. It could also handle hit knockbacks for when the weapon collides on a hit. One key part missing right now is blending between states as we just jump between montage sections. I need to look into this and hope it doesn't produce a dead end.<div class='tags'><div>Commit 6963476</div><div>12:38pm</div></div></div>
 <h4 id='2026-03-01'>March 01, 2026</h4>
 <div id='entry-3e3e294' class='entry'>Working on a different method of weapon attack (or action) so we can have alternate actions. The switch is to have attacks based on input release, rather than input press. The release will be used for "charge", which given the slower nature of the game and focus on physicality should play into that. The second part is whilst holding the primary input, the player can press (and hold) the secondary input to switch the action. Going to test this concept out on the torch, which has a hit attack and a secondary hold out torch for burning targets.<div class='tags'><div>Commit 3e3e294</div><div>5:06pm</div></div></div>
 <label id='2026-02'></label>
