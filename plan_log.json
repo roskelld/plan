@@ -798,5 +798,11 @@
     "commit": "cec2278e1b28cb89e5b41da2c6fc8f8915017361",
     "body": "Had a few nightmare days. What was a simple task stating create downed state animation for new skeleton became a dungeoneering challenge to uncover why clients weren't showing the animation. After many, many tests I found all would work fine if the gameplay ability ran independently of any health changes. Skipping a lot, this revealed that health updates were causing the character and all their skeletal meshes to be destroyed and rebuilt. Something I do remember doing as a short cut for handling any mesh or material updates (which we don't even have in yet). But this burned me as doing this reset montage playback. The clue that lead me to this was noticing a twitch in the character's fingers whenever they took damage, but linking that to the equip system was not an obvious tunnel to explore down at first.",
     "tags": []
+  },
+  {
+    "timestamp": 1773254680,
+    "commit": "b8f24efde1df1de649e62d117fa77a5d5b9ecb20",
+    "body": "Back to more torch bug fixes. First looking into why picking up and dropping a torch causes it to get the active gameplay tag applied, and even though it shouldn't, it is not causing it to ignite.",
+    "tags": []
   }
 ]
