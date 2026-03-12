@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Back to more torch bug fixes. First looking into why picking up and dropping a torch causes it to get the active gameplay tag applied, and even though it shouldn't, it is not causing it to ignite.' />
+<meta property='og:description' content='Discovered an issue I'd not considered last night. Late joining clients wouldn't replicate any ongoing montage loops. An issue for things like a downed player. I decided to try and task Codex with mod...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -46,6 +46,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-03'></label>
+<h4 id='2026-03-12'>March 12, 2026</h4>
+<div id='entry-5dc7914' class='entry'>Discovered an issue I'd not considered last night. Late joining clients wouldn't replicate any ongoing montage loops. An issue for things like a downed player. I decided to try and task Codex with modifying our Ability Montage player with an optional replication system that would sync anims for late joiners. As a first pass it got all main feature updates working, but with a few bugs. After a couple of rounds of me describing the issues I was seeing it was able to identify and fix the problems. Pretty good results. I created a detailed Agents.md to guide it, which proved useful as it's able to work to my requirements (incremental updates I can test), and gives me a nice report that helps me understand any decisions and code to check when testing.<div class='tags'><div>Commit 5dc7914</div><div>2:19pm</div></div></div>
 <h4 id='2026-03-11'>March 11, 2026</h4>
 <div id='entry-cec2278' class='entry'>Had a few nightmare days. What was a simple task stating create downed state animation for new skeleton became a dungeoneering challenge to uncover why clients weren't showing the animation. After many, many tests I found all would work fine if the gameplay ability ran independently of any health changes. Skipping a lot, this revealed that health updates were causing the character and all their skeletal meshes to be destroyed and rebuilt. Something I do remember doing as a short cut for handling any mesh or material updates (which we don't even have in yet). But this burned me as doing this reset montage playback. The clue that lead me to this was noticing a twitch in the character's fingers whenever they took damage, but linking that to the equip system was not an obvious tunnel to explore down at first.<div class='tags'><div>Commit cec2278</div><div>12:43pm</div></div></div>
 <div id='entry-b8f24ef' class='entry'>Back to more torch bug fixes. First looking into why picking up and dropping a torch causes it to get the active gameplay tag applied, and even though it shouldn't, it is not causing it to ignite.<div class='tags'><div>Commit b8f24ef</div><div>12:44pm</div></div></div>

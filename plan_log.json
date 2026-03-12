@@ -804,5 +804,11 @@
     "commit": "b8f24efde1df1de649e62d117fa77a5d5b9ecb20",
     "body": "Back to more torch bug fixes. First looking into why picking up and dropping a torch causes it to get the active gameplay tag applied, and even though it shouldn't, it is not causing it to ignite.",
     "tags": []
+  },
+  {
+    "timestamp": 1773346790,
+    "commit": "5dc79144d7874357c06efbec8fff9431c2f1d638",
+    "body": "Discovered an issue I'd not considered last night. Late joining clients wouldn't replicate any ongoing montage loops. An issue for things like a downed player. I decided to try and task Codex with modifying our Ability Montage player with an optional replication system that would sync anims for late joiners. As a first pass it got all main feature updates working, but with a few bugs. After a couple of rounds of me describing the issues I was seeing it was able to identify and fix the problems. Pretty good results. I created a detailed Agents.md to guide it, which proved useful as it's able to work to my requirements (incremental updates I can test), and gives me a nice report that helps me understand any decisions and code to check when testing.",
+    "tags": []
   }
 ]
