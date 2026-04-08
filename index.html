@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='With the Dwarf mostly complete I made a push this week to see where the challenges were for adding another character. So I added the Giantkin and worked on systems to help automate as much as the proc...' />
+<meta property='og:description' content='Giantkin finalization work got put on hold as the playtest uncovered some network related issues. Mainly the attack ability causing characters to get in a stuck state if attacks were made in quick suc...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -48,6 +48,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-04'></label>
+<h4 id='2026-04-08'>April 08, 2026</h4>
+<div id='entry-6eda30c' class='entry'>Giantkin finalization work got put on hold as the playtest uncovered some network related issues. Mainly the attack ability causing characters to get in a stuck state if attacks were made in quick succession. This turned out to be a delayed message from the server telling the client to stop animating based on them still processing the previous attack. Had to update the animation calls to carry prediction keys so they can be related to instances of abilities. Moving on to the Gnome now though as I wrapped up on the Giantkin.<div class='tags'><div>Commit 6eda30c</div><div>11:46pm</div></div></div>
 <h4 id='2026-04-03'>April 03, 2026</h4>
 <div id='entry-7c2f998' class='entry'>With the Dwarf mostly complete I made a push this week to see where the challenges were for adding another character. So I added the Giantkin and worked on systems to help automate as much as the process as possible using the Dwarf as a base. There's some grunt work needed, but I was able to develop the retargeter for converting animations, and I wrote a Blender plugin for batch converting skeletal meshes over and binding them to the target skeleton. Managed to get most of the Giantkin completed in two days. After a big more cleanup I'll test the whole process on the Gnome.<div class='tags'><div>Commit 7c2f998</div><div>11:12pm</div></div></div>
 <label id='2026-03'></label>
