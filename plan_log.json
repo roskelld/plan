@@ -822,5 +822,11 @@
     "commit": "6eda30c1b9f5de7d3abee881e51c1db9045b5e72",
     "body": "Giantkin finalization work got put on hold as the playtest uncovered some network related issues. Mainly the attack ability causing characters to get in a stuck state if attacks were made in quick succession. This turned out to be a delayed message from the server telling the client to stop animating based on them still processing the previous attack. Had to update the animation calls to carry prediction keys so they can be related to instances of abilities. Moving on to the Gnome now though as I wrapped up on the Giantkin.",
     "tags": []
+  },
+  {
+    "timestamp": 1775971073,
+    "commit": "5ea8a1e6671086b980dda7425ba20fcf8da581d5",
+    "body": "Gnome pretty much got finished in a single day. We even got to playtest it last Thursday. It certainly felt good to have gone through the ground work with the Dwarf and the test with the Giantkin. There are still a few things that would be nice to build a pipeline for, I'm just trying to avoid spending hours building a system that would take me minutes to manually build. There's still a bunch of characters to add, but I'm going to hold off for now and move on to other things.",
+    "tags": []
   }
 ]
