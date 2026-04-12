@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Gnome pretty much got finished in a single day. We even got to playtest it last Thursday. It certainly felt good to have gone through the ground work with the Dwarf and the test with the Giantkin. The...' />
+<meta property='og:description' content='The current fire system has been bugging me. There were obviously a number of bugs and I didn't like the lack of feedback when trying to ignite an object. So I've spent some time battling against the ...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -50,6 +50,7 @@
 <label id='2026-04'></label>
 <h4 id='2026-04-12'>April 12, 2026</h4>
 <div id='entry-5ea8a1e' class='entry'>Gnome pretty much got finished in a single day. We even got to playtest it last Thursday. It certainly felt good to have gone through the ground work with the Dwarf and the test with the Giantkin. There are still a few things that would be nice to build a pipeline for, I'm just trying to avoid spending hours building a system that would take me minutes to manually build. There's still a bunch of characters to add, but I'm going to hold off for now and move on to other things.<div class='tags'><div>Commit 5ea8a1e</div><div>11:17pm</div></div></div>
+<div id='entry-3de6ac0' class='entry'>The current fire system has been bugging me. There were obviously a number of bugs and I didn't like the lack of feedback when trying to ignite an object. So I've spent some time battling against the issues and updating the system. I managed to uncover a few bugs in dealing with heat energy (the whole system works off tracking heat until combustion). I also added in a smoke effect, cause without smoke you don't get fire right? Well, I figured having an object smoke gives the player feedback that it's building heat, and the effect is driven by the amount of heat for more feedback. I'm trying to spend a couple of days doing a full sweep over the system and presentation to round things off and at least annoy me a little less.<div class='tags'><div>Commit 3de6ac0</div><div>11:23pm</div></div></div>
 <h4 id='2026-04-08'>April 08, 2026</h4>
 <div id='entry-6eda30c' class='entry'>Giantkin finalization work got put on hold as the playtest uncovered some network related issues. Mainly the attack ability causing characters to get in a stuck state if attacks were made in quick succession. This turned out to be a delayed message from the server telling the client to stop animating based on them still processing the previous attack. Had to update the animation calls to carry prediction keys so they can be related to instances of abilities. Moving on to the Gnome now though as I wrapped up on the Giantkin.<div class='tags'><div>Commit 6eda30c</div><div>11:46pm</div></div></div>
 <h4 id='2026-04-03'>April 03, 2026</h4>
