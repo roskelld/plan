@@ -840,5 +840,11 @@
     "commit": "056b7bb40c1a5e23b522d4adc2e78257e01e1744",
     "body": "Got the fire system into a better state. Moved over to getting footstep sounds in. Using animation notifies I have a system setup to drive a meta sound system, defining the ground material, character weight, foot material, and speed. That picks from a library of sounds and plays one.",
     "tags": []
+  },
+  {
+    "timestamp": 1776194860,
+    "commit": "c1cbc9e110ca4f738ab7e4079bc17d3f8c438f9d",
+    "body": "Audio update complete for now. Feels much better to hear that feedback from character's moving. Much more connected to the world. I've been wanting to get back to working on level generation for a while now, but I feel that there's at least one task left to round out the current milestone, which is handling zero health equipment. Right now it just vanishes from the character, which for most things does not break anything, but that's not true for slotted equipment like belts, as the child items become orphaned. I have some ideas on how to develop this out, so I'll be working on that next.",
+    "tags": []
   }
 ]
