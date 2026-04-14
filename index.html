@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='The current fire system has been bugging me. There were obviously a number of bugs and I didn't like the lack of feedback when trying to ignite an object. So I've spent some time battling against the ...' />
+<meta property='og:description' content='Got the fire system into a better state. Moved over to getting footstep sounds in. Using animation notifies I have a system setup to drive a meta sound system, defining the ground material, character ...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -48,6 +48,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-04'></label>
+<h4 id='2026-04-14'>April 14, 2026</h4>
+<div id='entry-056b7bb' class='entry'>Got the fire system into a better state. Moved over to getting footstep sounds in. Using animation notifies I have a system setup to drive a meta sound system, defining the ground material, character weight, foot material, and speed. That picks from a library of sounds and plays one.<div class='tags'><div>Commit 056b7bb</div><div>11:54pm</div></div></div>
 <h4 id='2026-04-12'>April 12, 2026</h4>
 <div id='entry-5ea8a1e' class='entry'>Gnome pretty much got finished in a single day. We even got to playtest it last Thursday. It certainly felt good to have gone through the ground work with the Dwarf and the test with the Giantkin. There are still a few things that would be nice to build a pipeline for, I'm just trying to avoid spending hours building a system that would take me minutes to manually build. There's still a bunch of characters to add, but I'm going to hold off for now and move on to other things.<div class='tags'><div>Commit 5ea8a1e</div><div>11:17pm</div></div></div>
 <div id='entry-3de6ac0' class='entry'>The current fire system has been bugging me. There were obviously a number of bugs and I didn't like the lack of feedback when trying to ignite an object. So I've spent some time battling against the issues and updating the system. I managed to uncover a few bugs in dealing with heat energy (the whole system works off tracking heat until combustion). I also added in a smoke effect, cause without smoke you don't get fire right? Well, I figured having an object smoke gives the player feedback that it's building heat, and the effect is driven by the amount of heat for more feedback. I'm trying to spend a couple of days doing a full sweep over the system and presentation to round things off and at least annoy me a little less.<div class='tags'><div>Commit 3de6ac0</div><div>11:23pm</div></div></div>

@@ -834,5 +834,11 @@
     "commit": "3de6ac0547cdbedbca1a1ff64e84f527e0d50043",
     "body": "The current fire system has been bugging me. There were obviously a number of bugs and I didn't like the lack of feedback when trying to ignite an object. So I've spent some time battling against the issues and updating the system. I managed to uncover a few bugs in dealing with heat energy (the whole system works off tracking heat until combustion). I also added in a smoke effect, cause without smoke you don't get fire right? Well, I figured having an object smoke gives the player feedback that it's building heat, and the effect is driven by the amount of heat for more feedback. I'm trying to spend a couple of days doing a full sweep over the system and presentation to round things off and at least annoy me a little less.",
     "tags": []
+  },
+  {
+    "timestamp": 1776146088,
+    "commit": "056b7bb40c1a5e23b522d4adc2e78257e01e1744",
+    "body": "Got the fire system into a better state. Moved over to getting footstep sounds in. Using animation notifies I have a system setup to drive a meta sound system, defining the ground material, character weight, foot material, and speed. That picks from a library of sounds and plays one.",
+    "tags": []
   }
 ]
