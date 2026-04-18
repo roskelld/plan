@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Audio update complete for now. Feels much better to hear that feedback from character's moving. Much more connected to the world. I've been wanting to get back to working on level generation for a whi...' />
+<meta property='og:description' content='Introduced a new Destroyed state for items when they reach zero health that does not destroy the actor. Updated the UI and using some new rules about them changed their behavior. Destroyed items only ...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -48,6 +48,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-04'></label>
+<h4 id='2026-04-18'>April 18, 2026</h4>
+<div id='entry-a7f6a7c' class='entry'>Introduced a new Destroyed state for items when they reach zero health that does not destroy the actor. Updated the UI and using some new rules about them changed their behavior. Destroyed items only offer 20% of their total attribute benefits, if they have slots for child items, they become remove only. Granted abilities can be blocked or changed based on the destroyed state tag. Items can optionally use destroyed meshes.<div class='tags'><div>Commit a7f6a7c</div><div>8:50pm</div></div></div>
 <h4 id='2026-04-14'>April 14, 2026</h4>
 <div id='entry-056b7bb' class='entry'>Got the fire system into a better state. Moved over to getting footstep sounds in. Using animation notifies I have a system setup to drive a meta sound system, defining the ground material, character weight, foot material, and speed. That picks from a library of sounds and plays one.<div class='tags'><div>Commit 056b7bb</div><div>11:54pm</div></div></div>
 <div id='entry-c1cbc9e' class='entry'>Audio update complete for now. Feels much better to hear that feedback from character's moving. Much more connected to the world. I've been wanting to get back to working on level generation for a while now, but I feel that there's at least one task left to round out the current milestone, which is handling zero health equipment. Right now it just vanishes from the character, which for most things does not break anything, but that's not true for slotted equipment like belts, as the child items become orphaned. I have some ideas on how to develop this out, so I'll be working on that next.<div class='tags'><div>Commit c1cbc9e</div><div>1:27pm</div></div></div>

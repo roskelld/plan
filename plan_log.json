@@ -846,5 +846,11 @@
     "commit": "c1cbc9e110ca4f738ab7e4079bc17d3f8c438f9d",
     "body": "Audio update complete for now. Feels much better to hear that feedback from character's moving. Much more connected to the world. I've been wanting to get back to working on level generation for a while now, but I feel that there's at least one task left to round out the current milestone, which is handling zero health equipment. Right now it just vanishes from the character, which for most things does not break anything, but that's not true for slotted equipment like belts, as the child items become orphaned. I have some ideas on how to develop this out, so I'll be working on that next.",
     "tags": []
+  },
+  {
+    "timestamp": 1776480608,
+    "commit": "a7f6a7cf3990fa9f93aa23da4ac29ed2ff87c4ac",
+    "body": "Introduced a new Destroyed state for items when they reach zero health that does not destroy the actor. Updated the UI and using some new rules about them changed their behavior. Destroyed items only offer 20% of their total attribute benefits, if they have slots for child items, they become remove only. Granted abilities can be blocked or changed based on the destroyed state tag. Items can optionally use destroyed meshes.",
+    "tags": []
   }
 ]
