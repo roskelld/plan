@@ -858,5 +858,11 @@
     "commit": "9222932de580508fc8e56cdfdeb4331437b29003",
     "body": "My hope was to move on from character customization last week, but I ran a final test by building out character combinations that I hadn't tested. Most testing was done with helms and chest pieces. I discovered that there were some complex combinations where items would affect adjacent items such as pants would need to recolor boots (lower legs) so I had to introduce a new configuration and management rule to deal with this. Hopefully now it's in a good enough state to move on.",
     "tags": []
+  },
+  {
+    "timestamp": 1777308407,
+    "commit": "5dc0745b4da195956a19d5cda6c2e9fe3a5976d7",
+    "body": "This week I'm spending time looking into dungeon generation. First is to focus on getting item placement generated in the existing test level.",
+    "tags": []
   }
 ]

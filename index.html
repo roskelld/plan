@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='My hope was to move on from character customization last week, but I ran a final test by building out character combinations that I hadn't tested. Most testing was done with helms and chest pieces. I ...' />
+<meta property='og:description' content='This week I'm spending time looking into dungeon generation. First is to focus on getting item placement generated in the existing test level.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -50,6 +50,7 @@
 <label id='2026-04'></label>
 <h4 id='2026-04-27'>April 27, 2026</h4>
 <div id='entry-9222932' class='entry'>My hope was to move on from character customization last week, but I ran a final test by building out character combinations that I hadn't tested. Most testing was done with helms and chest pieces. I discovered that there were some complex combinations where items would affect adjacent items such as pants would need to recolor boots (lower legs) so I had to introduce a new configuration and management rule to deal with this. Hopefully now it's in a good enough state to move on.<div class='tags'><div>Commit 9222932</div><div>10:45am</div></div></div>
+<div id='entry-5dc0745' class='entry'>This week I'm spending time looking into dungeon generation. First is to focus on getting item placement generated in the existing test level.<div class='tags'><div>Commit 5dc0745</div><div>10:46am</div></div></div>
 <h4 id='2026-04-18'>April 18, 2026</h4>
 <div id='entry-a7f6a7c' class='entry'>Introduced a new Destroyed state for items when they reach zero health that does not destroy the actor. Updated the UI and using some new rules about them changed their behavior. Destroyed items only offer 20% of their total attribute benefits, if they have slots for child items, they become remove only. Granted abilities can be blocked or changed based on the destroyed state tag. Items can optionally use destroyed meshes.<div class='tags'><div>Commit a7f6a7c</div><div>8:50pm</div></div></div>
 <h4 id='2026-04-14'>April 14, 2026</h4>
