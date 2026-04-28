@@ -870,5 +870,11 @@
     "commit": "bfcc18a5053ae5b29b8fdf2020cbab10f4060b78",
     "body": "First day on procgen and the results were good. I've setup the Unreal PCG system and added a function to build potential spawn points in a dungeon by performing a checks over a volume of points to filter down to: within level bounds, valid floor, valid height clearance. It runs on a provided seed value so is deterministic, which will allow clients to also run it locally. As a test I setup one of the plant enemies to be distributed into the current test map and it worked. There's no logic to placement yet, which works for the plants, but later I'll need to start building out rules for item clustering and meaningful location placement.",
     "tags": []
+  },
+  {
+    "timestamp": 1777403393,
+    "commit": "a8bddffef0e70886a19afc5c1607f15e3f606836",
+    "body": "Moved over to hunting some of the bugs we experienced during recent playtests. I'm running a debug build with client in debugger to capture issues. So far I've hit three and I'm hunting down a potential audio component asset during level transition.",
+    "tags": []
   }
 ]
