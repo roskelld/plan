@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='This week I'm spending time looking into dungeon generation. First is to focus on getting item placement generated in the existing test level.' />
+<meta property='og:description' content='First day on procgen and the results were good. I've setup the Unreal PCG system and added a function to build potential spawn points in a dungeon by performing a checks over a volume of points to fil...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -48,6 +48,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-04'></label>
+<h4 id='2026-04-28'>April 28, 2026</h4>
+<div id='entry-bfcc18a' class='entry'>First day on procgen and the results were good. I've setup the Unreal PCG system and added a function to build potential spawn points in a dungeon by performing a checks over a volume of points to filter down to: within level bounds, valid floor, valid height clearance. It runs on a provided seed value so is deterministic, which will allow clients to also run it locally. As a test I setup one of the plant enemies to be distributed into the current test map and it worked. There's no logic to placement yet, which works for the plants, but later I'll need to start building out rules for item clustering and meaningful location placement.<div class='tags'><div>Commit bfcc18a</div><div>1:07pm</div></div></div>
 <h4 id='2026-04-27'>April 27, 2026</h4>
 <div id='entry-9222932' class='entry'>My hope was to move on from character customization last week, but I ran a final test by building out character combinations that I hadn't tested. Most testing was done with helms and chest pieces. I discovered that there were some complex combinations where items would affect adjacent items such as pants would need to recolor boots (lower legs) so I had to introduce a new configuration and management rule to deal with this. Hopefully now it's in a good enough state to move on.<div class='tags'><div>Commit 9222932</div><div>10:45am</div></div></div>
 <div id='entry-5dc0745' class='entry'>This week I'm spending time looking into dungeon generation. First is to focus on getting item placement generated in the existing test level.<div class='tags'><div>Commit 5dc0745</div><div>10:46am</div></div></div>
