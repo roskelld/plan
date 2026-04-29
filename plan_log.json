@@ -876,5 +876,11 @@
     "commit": "a8bddffef0e70886a19afc5c1607f15e3f606836",
     "body": "Moved over to hunting some of the bugs we experienced during recent playtests. I'm running a debug build with client in debugger to capture issues. So far I've hit three and I'm hunting down a potential audio component asset during level transition.",
     "tags": []
+  },
+  {
+    "timestamp": 1777490482,
+    "commit": "6a36ef76c60ea28788600b55eea27c6bac3eaef8",
+    "body": "Resolved crash bug hunt, returning to proc gen work. Goal for this week's playtest is to have a few elements such as the enemy plants and some basic items like crates be generated.",
+    "tags": []
   }
 ]

@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Moved over to hunting some of the bugs we experienced during recent playtests. I'm running a debug build with client in debugger to capture issues. So far I've hit three and I'm hunting down a potenti...' />
+<meta property='og:description' content='Resolved crash bug hunt, returning to proc gen work. Goal for this week's playtest is to have a few elements such as the enemy plants and some basic items like crates be generated.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -48,6 +48,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-04'></label>
+<h4 id='2026-04-29'>April 29, 2026</h4>
+<div id='entry-6a36ef7' class='entry'>Resolved crash bug hunt, returning to proc gen work. Goal for this week's playtest is to have a few elements such as the enemy plants and some basic items like crates be generated.<div class='tags'><div>Commit 6a36ef7</div><div>1:21pm</div></div></div>
 <h4 id='2026-04-28'>April 28, 2026</h4>
 <div id='entry-bfcc18a' class='entry'>First day on procgen and the results were good. I've setup the Unreal PCG system and added a function to build potential spawn points in a dungeon by performing a checks over a volume of points to filter down to: within level bounds, valid floor, valid height clearance. It runs on a provided seed value so is deterministic, which will allow clients to also run it locally. As a test I setup one of the plant enemies to be distributed into the current test map and it worked. There's no logic to placement yet, which works for the plants, but later I'll need to start building out rules for item clustering and meaningful location placement.<div class='tags'><div>Commit bfcc18a</div><div>1:07pm</div></div></div>
 <div id='entry-a8bddff' class='entry'>Moved over to hunting some of the bugs we experienced during recent playtests. I'm running a debug build with client in debugger to capture issues. So far I've hit three and I'm hunting down a potential audio component asset during level transition.<div class='tags'><div>Commit a8bddff</div><div>1:09pm</div></div></div>
