@@ -882,5 +882,11 @@
     "commit": "6a36ef76c60ea28788600b55eea27c6bac3eaef8",
     "body": "Resolved crash bug hunt, returning to proc gen work. Goal for this week's playtest is to have a few elements such as the enemy plants and some basic items like crates be generated.",
     "tags": []
+  },
+  {
+    "timestamp": 1778188239,
+    "commit": "032d5a0d88a147fe0a284b185af37c50610bf143",
+    "body": "Continued with the proc gen work. After doing some testing it was clear that we were quickly going to hit issues of replicated actor count, and the base actor used for items is heavy. So I started working on a system to interface with PCG that makes very light actor instances, potentially down to being just static meshes, and then dynamically converts them at runtime to full actors. Second to that is a system of slicing maps into areas that can handle generating PCG based on proximity so players are only dealing with actors within their local vicinity. This task so far has got the zone based setup working using volumes, the light actor spawning, and the trigger to convert actors to their full actor versions, which sounds like it's almost there, but not close. There's still a lot of devil in the detail to cover.",
+    "tags": []
   }
 ]
