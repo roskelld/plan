@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='ProcGen update now has a functioning baseline where it generates light actors in the cells handles escalation to full actors and can deal with replication and late join state. The next step is to writ...' />
+<meta property='og:description' content='Spent a few days reworking physics due to adding a new light actor class and optimizing the full actor class so needed to handle physics reactions from light actors getting hit and converting them int...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -52,6 +52,7 @@
 <label id='2026-05'></label>
 <h4 id='2026-05-19'>May 19, 2026</h4>
 <div id='entry-ab55c84' class='entry'>ProcGen update now has a functioning baseline where it generates light actors in the cells handles escalation to full actors and can deal with replication and late join state. The next step is to write a PCG script that can spawn actors based on zone tag and handle amounts. The version I wrote for the test is quite hardcoded and lacks good control over numbers.<div class='tags'><div>Commit ab55c84</div><div>10:39pm</div></div></div>
+<div id='entry-b273bb6' class='entry'>Spent a few days reworking physics due to adding a new light actor class and optimizing the full actor class so needed to handle physics reactions from light actors getting hit and converting them into full actors without losing the on going physics state. This effort gave me more time to try and improve the general physics response and replication to remove existing issues of client side sim divergence and get the system more in line with Epic's standards.<div class='tags'><div>Commit b273bb6</div><div>10:42pm</div></div></div>
 <h4 id='2026-05-07'>May 07, 2026</h4>
 <div id='entry-032d5a0' class='entry'>Continued with the proc gen work. After doing some testing it was clear that we were quickly going to hit issues of replicated actor count, and the base actor used for items is heavy. So I started working on a system to interface with PCG that makes very light actor instances, potentially down to being just static meshes, and then dynamically converts them at runtime to full actors. Second to that is a system of slicing maps into areas that can handle generating PCG based on proximity so players are only dealing with actors within their local vicinity. This task so far has got the zone based setup working using volumes, the light actor spawning, and the trigger to convert actors to their full actor versions, which sounds like it's almost there, but not close. There's still a lot of devil in the detail to cover.<div class='tags'><div>Commit 032d5a0</div><div>3:10pm</div></div></div>
 <label id='2026-04'></label>

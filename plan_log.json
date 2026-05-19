@@ -894,5 +894,11 @@
     "commit": "ab55c84dc16c591af100e6a1a8fe9ad38b213b0b",
     "body": "ProcGen update now has a functioning baseline where it generates light actors in the cells handles escalation to full actors and can deal with replication and late join state. The next step is to write a PCG script that can spawn actors based on zone tag and handle amounts. The version I wrote for the test is quite hardcoded and lacks good control over numbers.",
     "tags": []
+  },
+  {
+    "timestamp": 1779165742,
+    "commit": "b273bb6430e980384aa57dc0dba0cfac2d5d6070",
+    "body": "Spent a few days reworking physics due to adding a new light actor class and optimizing the full actor class so needed to handle physics reactions from light actors getting hit and converting them into full actors without losing the on going physics state. This effort gave me more time to try and improve the general physics response and replication to remove existing issues of client side sim divergence and get the system more in line with Epic's standards.",
+    "tags": []
   }
 ]
