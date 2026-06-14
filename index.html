@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Spent a few days reworking physics due to adding a new light actor class and optimizing the full actor class so needed to handle physics reactions from light actors getting hit and converting them int...' />
+<meta property='og:description' content='Been a few weeks since last update. I have continued working on the physics solution and improving the escalation from light to full actors. The earlier path tried to perform a JUT switch which requir...' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -17,6 +17,8 @@
 <summary>Jump to…</summary>
 <nav><ul>
 <li><a href='#2026'>2026</a><ul>
+<li><a href='#2026-06'>June</a>
+</li>
 <li><a href='#2026-05'>May</a>
 </li>
 <li><a href='#2026-04'>April</a>
@@ -49,6 +51,9 @@
 </ul></nav>
 </details>
 <label id='2026'></label>
+<label id='2026-06'></label>
+<h4 id='2026-06-14'>June 14, 2026</h4>
+<div id='entry-00dc3bc' class='entry'>Been a few weeks since last update. I have continued working on the physics solution and improving the escalation from light to full actors. The earlier path tried to perform a JUT switch which required the physics actor to be instantiated with impact information and that was not tenable due to network latency and harming the chaos physics system from doing its thing. This newer version escalates actors based on proximity to potential disturbers such as characters, and there's also a prediction path during a projectile to wake actors in its path. Lots of testing and tweaking continues.<div class='tags'><div>Commit 00dc3bc</div><div>7:14pm</div></div></div>
 <label id='2026-05'></label>
 <h4 id='2026-05-19'>May 19, 2026</h4>
 <div id='entry-ab55c84' class='entry'>ProcGen update now has a functioning baseline where it generates light actors in the cells handles escalation to full actors and can deal with replication and late join state. The next step is to write a PCG script that can spawn actors based on zone tag and handle amounts. The version I wrote for the test is quite hardcoded and lacks good control over numbers.<div class='tags'><div>Commit ab55c84</div><div>10:39pm</div></div></div>

@@ -900,5 +900,11 @@
     "commit": "b273bb6430e980384aa57dc0dba0cfac2d5d6070",
     "body": "Spent a few days reworking physics due to adding a new light actor class and optimizing the full actor class so needed to handle physics reactions from light actors getting hit and converting them into full actors without losing the on going physics state. This effort gave me more time to try and improve the general physics response and replication to remove existing issues of client side sim divergence and get the system more in line with Epic's standards.",
     "tags": []
+  },
+  {
+    "timestamp": 1781399649,
+    "commit": "00dc3bc88e68b7a08b0035d838c4c1a1d27839e8",
+    "body": "Been a few weeks since last update. I have continued working on the physics solution and improving the escalation from light to full actors. The earlier path tried to perform a JUT switch which required the physics actor to be instantiated with impact information and that was not tenable due to network latency and harming the chaos physics system from doing its thing. This newer version escalates actors based on proximity to potential disturbers such as characters, and there's also a prediction path during a projectile to wake actors in its path. Lots of testing and tweaking continues.",
+    "tags": []
   }
 ]
