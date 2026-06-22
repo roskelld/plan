@@ -912,5 +912,11 @@
     "commit": "7471a067451983cd6ce51331157ede93ed921bd2",
     "body": "Resolved a long running issue where falling players landing on physics objects caused unwanted chaos knocking objects over. This really hurt the ability for players to be able to create constructions. Physics wake is reserved now for high velocity hits only. Physics seems to be in a much better state, biggest task remaining is optimization (hopefully).",
     "tags": []
+  },
+  {
+    "timestamp": 1782138230,
+    "commit": "7cd6f6516771aee261d15266c6787f4eac0c7caf",
+    "body": "Currently working on re-implementing object damage. Old version was written in Blueprints and was a bit hokey. New version has been redefined to better handle bidirectional damage with one contract exchange event where each damage causer provides a raw value and parameters, and the receiver handles damage reduction.",
+    "tags": []
   }
 ]
