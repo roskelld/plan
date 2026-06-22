@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Been a few weeks since last update. I have continued working on the physics solution and improving the escalation from light to full actors. The earlier path tried to perform a JUT switch which requir...' />
+<meta property='og:description' content='Resolved a long running issue where falling players landing on physics objects caused unwanted chaos knocking objects over. This really hurt the ability for players to be able to create constructions....' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -52,6 +52,8 @@
 </details>
 <label id='2026'></label>
 <label id='2026-06'></label>
+<h4 id='2026-06-22'>June 22, 2026</h4>
+<div id='entry-7471a06' class='entry'>Resolved a long running issue where falling players landing on physics objects caused unwanted chaos knocking objects over. This really hurt the ability for players to be able to create constructions. Physics wake is reserved now for high velocity hits only. Physics seems to be in a much better state, biggest task remaining is optimization (hopefully).<div class='tags'><div>Commit 7471a06</div><div>8:20am</div></div></div>
 <h4 id='2026-06-14'>June 14, 2026</h4>
 <div id='entry-00dc3bc' class='entry'>Been a few weeks since last update. I have continued working on the physics solution and improving the escalation from light to full actors. The earlier path tried to perform a JUT switch which required the physics actor to be instantiated with impact information and that was not tenable due to network latency and harming the chaos physics system from doing its thing. This newer version escalates actors based on proximity to potential disturbers such as characters, and there's also a prediction path during a projectile to wake actors in its path. Lots of testing and tweaking continues.<div class='tags'><div>Commit 00dc3bc</div><div>7:14pm</div></div></div>
 <label id='2026-05'></label>
