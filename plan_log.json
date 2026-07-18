@@ -918,5 +918,23 @@
     "commit": "7cd6f6516771aee261d15266c6787f4eac0c7caf",
     "body": "Currently working on re-implementing object damage. Old version was written in Blueprints and was a bit hokey. New version has been redefined to better handle bidirectional damage with one contract exchange event where each damage causer provides a raw value and parameters, and the receiver handles damage reduction.",
     "tags": []
+  },
+  {
+    "timestamp": 1784398066,
+    "commit": "f7dd004647a554a3bcbd4c378604c2bfd5cc369d",
+    "body": "Late update. Object damage was rewritten, and a pass was done on character damage. This allowed the removal of some blueprint logic, which is nice to get core logic into C++.",
+    "tags": []
+  },
+  {
+    "timestamp": 1784398066,
+    "commit": "f7dd004647a554a3bcbd4c378604c2bfd5cc369d",
+    "body": "I started doing an investigation into generating more complex linked mechanical actors from data sets instead of having hand-authored blueprint actors. This was so the PCG system could be used to manage spawning and connecting them. Unsurprisingly the process was a challenge, and in the interest of time I felt it easier to stick with PCG just spawning hand-authored blueprint actor instances, and for now, hold off dealing with actor-to-actor connections (think lever actor controlling door actor state). I shall return to this concept at a later stage.",
+    "tags": []
+  },
+  {
+    "timestamp": 1784398066,
+    "commit": "f7dd004647a554a3bcbd4c378604c2bfd5cc369d",
+    "body": "Investigating options to implement full proc-gen dungeon layouts. Early ventures into this were based on spawning linked hand-crafted chambers via a seed. But I wanted to try and see what kind of results I can get from Unreal's realtime mesh generation tools, there's a number of possible paths so I'm working on tests to see what kind of results I can get and see how feasible the idea is. A short version of the plan is to generate \"zones\" around the players based on a seed, similar to Minecraft's cell approach. If the system can get off the ground, then I want to see if I can get zone boundaries to be predictive such that they always line up, a chamber exit meets a chamber entrance no matter which direction the players come from. This would allow players to spawn at any location in the dungeon and always get the same layout no matter the order each zone was spawned in.",
+    "tags": []
   }
 ]

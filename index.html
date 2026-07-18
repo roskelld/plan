@@ -4,7 +4,7 @@
 <meta charset='UTF-8'>
 <title>roskelld .plan</title>
 <meta property='og:title' content='.plan Archive' />
-<meta property='og:description' content='Currently working on re-implementing object damage. Old version was written in Blueprints and was a bit hokey. New version has been redefined to better handle bidirectional damage with one contract ex...' />
+<meta property='og:description' content='Late update. Object damage was rewritten, and a pass was done on character damage. This allowed the removal of some blueprint logic, which is nice to get core logic into C++.' />
 <meta property='og:type' content='website' />
 <meta property='og:url' content='https://roskelld.github.io/plan/' />
 <link rel='alternate' type='application/rss+xml' href='https://roskelld.github.io/plan/feed.xml' />
@@ -17,6 +17,8 @@
 <summary>Jump to…</summary>
 <nav><ul>
 <li><a href='#2026'>2026</a><ul>
+<li><a href='#2026-07'>July</a>
+</li>
 <li><a href='#2026-06'>June</a>
 </li>
 <li><a href='#2026-05'>May</a>
@@ -51,6 +53,11 @@
 </ul></nav>
 </details>
 <label id='2026'></label>
+<label id='2026-07'></label>
+<h4 id='2026-07-18'>July 18, 2026</h4>
+<div id='entry-f7dd004' class='entry'>Late update. Object damage was rewritten, and a pass was done on character damage. This allowed the removal of some blueprint logic, which is nice to get core logic into C++.<div class='tags'><div>Commit f7dd004</div><div>12:07pm</div></div></div>
+<div id='entry-f7dd004' class='entry'>I started doing an investigation into generating more complex linked mechanical actors from data sets instead of having hand-authored blueprint actors. This was so the PCG system could be used to manage spawning and connecting them. Unsurprisingly the process was a challenge, and in the interest of time I felt it easier to stick with PCG just spawning hand-authored blueprint actor instances, and for now, hold off dealing with actor-to-actor connections (think lever actor controlling door actor state). I shall return to this concept at a later stage.<div class='tags'><div>Commit f7dd004</div><div>12:07pm</div></div></div>
+<div id='entry-f7dd004' class='entry'>Investigating options to implement full proc-gen dungeon layouts. Early ventures into this were based on spawning linked hand-crafted chambers via a seed. But I wanted to try and see what kind of results I can get from Unreal's realtime mesh generation tools, there's a number of possible paths so I'm working on tests to see what kind of results I can get and see how feasible the idea is. A short version of the plan is to generate "zones" around the players based on a seed, similar to Minecraft's cell approach. If the system can get off the ground, then I want to see if I can get zone boundaries to be predictive such that they always line up, a chamber exit meets a chamber entrance no matter which direction the players come from. This would allow players to spawn at any location in the dungeon and always get the same layout no matter the order each zone was spawned in.<div class='tags'><div>Commit f7dd004</div><div>12:07pm</div></div></div>
 <label id='2026-06'></label>
 <h4 id='2026-06-22'>June 22, 2026</h4>
 <div id='entry-7471a06' class='entry'>Resolved a long running issue where falling players landing on physics objects caused unwanted chaos knocking objects over. This really hurt the ability for players to be able to create constructions. Physics wake is reserved now for high velocity hits only. Physics seems to be in a much better state, biggest task remaining is optimization (hopefully).<div class='tags'><div>Commit 7471a06</div><div>8:20am</div></div></div>
